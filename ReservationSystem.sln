@@ -13,17 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_Tools", "0_Tools", "{86B4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0450F3A4-A6E6-4AF9-B776-BD99700466BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationSystem.DatabaseMigrations", "Src\0_Tools\ReservationSystem.DatabaseMigrations\ReservationSystem.DatabaseMigrations.csproj", "{880BDC54-D400-41E2-A83F-87E8FF906FA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.DatabaseMigrations", "Src\0_Tools\ReservationSystem.DatabaseMigrations\ReservationSystem.DatabaseMigrations.csproj", "{880BDC54-D400-41E2-A83F-87E8FF906FA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationSystem.Domain", "Src\Domain\ReservationSystem.Domain\ReservationSystem.Domain.csproj", "{447A2F8A-037A-4432-9068-4CF724F04A4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Domain", "Src\Domain\ReservationSystem.Domain\ReservationSystem.Domain.csproj", "{447A2F8A-037A-4432-9068-4CF724F04A4B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E5670E43-3252-4A9E-BB40-0C4AFA8FC7E7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{64007EBF-A124-4054-9BEA-6F6ADD822AD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationSystem.Domain.Tests.Unit", "tests\ReservationSystem.Domain.Tests.Unit\ReservationSystem.Domain.Tests.Unit.csproj", "{0D9D0961-50FC-44F0-9A26-1E09D92547E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Domain.Tests.Unit", "tests\ReservationSystem.Domain.Tests.Unit\ReservationSystem.Domain.Tests.Unit.csproj", "{0D9D0961-50FC-44F0-9A26-1E09D92547E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationSystem.NH.Tests.Integration", "tests\ReservationSystem.NH.Tests.Integration\ReservationSystem.NH.Tests.Integration.csproj", "{01D35E0A-8077-47D3-BB28-AEC81E6D77D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.NH.Tests.Integration", "tests\ReservationSystem.NH.Tests.Integration\ReservationSystem.NH.Tests.Integration.csproj", "{01D35E0A-8077-47D3-BB28-AEC81E6D77D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,8 +62,8 @@ Global
 		{880BDC54-D400-41E2-A83F-87E8FF906FA1} = {86B4F860-A3F5-4C01-9EE5-91A79427A8AD}
 		{447A2F8A-037A-4432-9068-4CF724F04A4B} = {0450F3A4-A6E6-4AF9-B776-BD99700466BC}
 		{64007EBF-A124-4054-9BEA-6F6ADD822AD5} = {E5670E43-3252-4A9E-BB40-0C4AFA8FC7E7}
-		{0D9D0961-50FC-44F0-9A26-1E09D92547E5} = {64007EBF-A124-4054-9BEA-6F6ADD822AD5}
-		{01D35E0A-8077-47D3-BB28-AEC81E6D77D4} = {64007EBF-A124-4054-9BEA-6F6ADD822AD5}
+		{0D9D0961-50FC-44F0-9A26-1E09D92547E5} = {E5670E43-3252-4A9E-BB40-0C4AFA8FC7E7}
+		{01D35E0A-8077-47D3-BB28-AEC81E6D77D4} = {E5670E43-3252-4A9E-BB40-0C4AFA8FC7E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F608A0B5-A14F-4210-A15C-AFBEB5049E9F}
