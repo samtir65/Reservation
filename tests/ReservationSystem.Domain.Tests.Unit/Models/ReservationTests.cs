@@ -11,7 +11,7 @@ namespace ReservationSystem.Domain.Tests.Unit.Models
             var reservation = new Reservation(10);
             reservation.Id.Should().Be(10);
             reservation.CreatOn.should().be();
-
+               
 
         }
         
