@@ -1719,6 +1719,20 @@
         "runtime": {
           "bin/placeholder/Framework.Domain.dll": {}
         }
+      },
+      "ReservationSystem.Domain.TestsUtils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": "16.9.4",
+          "xunit": "2.4.1"
+        },
+        "compile": {
+          "bin/placeholder/ReservationSystem.Domain.TestsUtils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReservationSystem.Domain.TestsUtils.dll": {}
+        }
       }
     }
   },
@@ -5989,6 +6003,11 @@
       "type": "project",
       "path": "../../framework/Framework.Domain/Framework.Domain.csproj",
       "msbuildProject": "../../framework/Framework.Domain/Framework.Domain.csproj"
+    },
+    "ReservationSystem.Domain.TestsUtils/1.0.0": {
+      "type": "project",
+      "path": "../Utils/ReservationSystem.Domain.TestsUtils/ReservationSystem.Domain.TestsUtils.csproj",
+      "msbuildProject": "../Utils/ReservationSystem.Domain.TestsUtils/ReservationSystem.Domain.TestsUtils.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5996,6 +6015,7 @@
       "FluentAssertions >= 6.5.1",
       "Framework.Domain >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
+      "ReservationSystem.Domain.TestsUtils >= 1.0.0",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -6035,6 +6055,9 @@
           "projectReferences": {
             "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj": {
               "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj"
+            },
+            "D:\\samira\\ReservationSystem\\ReservationSystem\\tests\\Utils\\ReservationSystem.Domain.TestsUtils\\ReservationSystem.Domain.TestsUtils.csproj": {
+              "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\tests\\Utils\\ReservationSystem.Domain.TestsUtils\\ReservationSystem.Domain.TestsUtils.csproj"
             }
           }
         }

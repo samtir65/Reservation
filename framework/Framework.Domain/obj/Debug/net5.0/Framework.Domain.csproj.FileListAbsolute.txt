@@ -10,3 +10,15 @@ D:\samira\HairSalons\framework\Framework.Domain\obj\Debug\net5.0\Framework.Domai
 D:\samira\HairSalons\framework\Framework.Domain\obj\Debug\net5.0\ref\Framework.Domain.dll
 D:\samira\HairSalons\framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.pdb
 D:\samira\HairSalons\framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.csproj.AssemblyReference.cache
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\bin\Debug\net5.0\Framework.Domain.deps.json
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\bin\Debug\net5.0\Framework.Domain.dll
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\bin\Debug\net5.0\ref\Framework.Domain.dll
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\bin\Debug\net5.0\Framework.Domain.pdb
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.csproj.AssemblyReference.cache
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.AssemblyInfoInputs.cache
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.AssemblyInfo.cs
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.csproj.CoreCompileInputs.cache
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.dll
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\obj\Debug\net5.0\ref\Framework.Domain.dll
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.pdb

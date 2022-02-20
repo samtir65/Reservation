@@ -1,0 +1,12 @@
+D:\samira\ReservationSystem\ReservationSystem\Src\0_Tools\ReservationSystem.DatabaseMigrations\bin\Debug\net5.0\ReservationSystem.DatabaseMigrations.deps.json
+D:\samira\ReservationSystem\ReservationSystem\Src\0_Tools\ReservationSystem.DatabaseMigrations\bin\Debug\net5.0\ReservationSystem.DatabaseMigrations.dll
+D:\samira\ReservationSystem\ReservationSystem\Src\0_Tools\ReservationSystem.DatabaseMigrations\bin\Debug\net5.0\ref\ReservationSystem.DatabaseMigrations.dll
+D:\samira\ReservationSystem\ReservationSystem\Src\0_Tools\ReservationSystem.DatabaseMigrations\bin\Debug\net5.0\ReservationSystem.DatabaseMigrations.pdb
+D:\samira\ReservationSystem\ReservationSystem\Src\0_Tools\ReservationSystem.DatabaseMigrations\obj\Debug\net5.0\ReservationSystem.DatabaseMigrations.csproj.AssemblyReference.cache
+D:\samira\ReservationSystem\ReservationSystem\Src\0_Tools\ReservationSystem.DatabaseMigrations\obj\Debug\net5.0\ReservationSystem.DatabaseMigrations.GeneratedMSBuildEditorConfig.editorconfig
+D:\samira\ReservationSystem\ReservationSystem\Src\0_Tools\ReservationSystem.DatabaseMigrations\obj\Debug\net5.0\ReservationSystem.DatabaseMigrations.AssemblyInfoInputs.cache
+D:\samira\ReservationSystem\ReservationSystem\Src\0_Tools\ReservationSystem.DatabaseMigrations\obj\Debug\net5.0\ReservationSystem.DatabaseMigrations.AssemblyInfo.cs
+D:\samira\ReservationSystem\ReservationSystem\Src\0_Tools\ReservationSystem.DatabaseMigrations\obj\Debug\net5.0\ReservationSystem.DatabaseMigrations.csproj.CoreCompileInputs.cache
+D:\samira\ReservationSystem\ReservationSystem\Src\0_Tools\ReservationSystem.DatabaseMigrations\obj\Debug\net5.0\ReservationSystem.DatabaseMigrations.dll
+D:\samira\ReservationSystem\ReservationSystem\Src\0_Tools\ReservationSystem.DatabaseMigrations\obj\Debug\net5.0\ref\ReservationSystem.DatabaseMigrations.dll
+D:\samira\ReservationSystem\ReservationSystem\Src\0_Tools\ReservationSystem.DatabaseMigrations\obj\Debug\net5.0\ReservationSystem.DatabaseMigrations.pdb
