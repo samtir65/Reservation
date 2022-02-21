@@ -1710,6 +1710,16 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "Framework.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Framework.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.Core.dll": {}
+        }
+      },
       "Framework.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1720,11 +1730,41 @@
           "bin/placeholder/Framework.Domain.dll": {}
         }
       },
+      "Framework.Test/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Framework.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Framework.Test.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.Test.dll": {}
+        }
+      },
+      "ReservationSystem.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Framework.Core": "1.0.0",
+          "Framework.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReservationSystem.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReservationSystem.Domain.dll": {}
+        }
+      },
       "ReservationSystem.Domain.TestsUtils/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Framework.Domain": "1.0.0",
+          "Framework.Test": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.9.4",
+          "ReservationSystem.Domain": "1.0.0",
           "xunit": "2.4.1"
         },
         "compile": {
@@ -5999,10 +6039,25 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
+    "Framework.Core/1.0.0": {
+      "type": "project",
+      "path": "../../framework/Framework.Core/Framework.Core.csproj",
+      "msbuildProject": "../../framework/Framework.Core/Framework.Core.csproj"
+    },
     "Framework.Domain/1.0.0": {
       "type": "project",
       "path": "../../framework/Framework.Domain/Framework.Domain.csproj",
       "msbuildProject": "../../framework/Framework.Domain/Framework.Domain.csproj"
+    },
+    "Framework.Test/1.0.0": {
+      "type": "project",
+      "path": "../../framework/Framework.Test/Framework.Test.csproj",
+      "msbuildProject": "../../framework/Framework.Test/Framework.Test.csproj"
+    },
+    "ReservationSystem.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Src/Domain/ReservationSystem.Domain/ReservationSystem.Domain.csproj",
+      "msbuildProject": "../../Src/Domain/ReservationSystem.Domain/ReservationSystem.Domain.csproj"
     },
     "ReservationSystem.Domain.TestsUtils/1.0.0": {
       "type": "project",

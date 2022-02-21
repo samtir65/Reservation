@@ -11,6 +11,7 @@
           "FluentAssertions": "6.5.1",
           "Framework.Domain": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.9.4",
+          "ReservationSystem.Domain.TestsUtils": "1.0.0",
           "coverlet.collector": "3.0.2",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3"
@@ -1129,9 +1130,43 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
+      "Framework.Core/1.0.0": {
+        "runtime": {
+          "Framework.Core.dll": {}
+        }
+      },
       "Framework.Domain/1.0.0": {
         "runtime": {
           "Framework.Domain.dll": {}
+        }
+      },
+      "Framework.Test/1.0.0": {
+        "dependencies": {
+          "Framework.Core": "1.0.0"
+        },
+        "runtime": {
+          "Framework.Test.dll": {}
+        }
+      },
+      "ReservationSystem.Domain/1.0.0": {
+        "dependencies": {
+          "Framework.Core": "1.0.0",
+          "Framework.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ReservationSystem.Domain.dll": {}
+        }
+      },
+      "ReservationSystem.Domain.TestsUtils/1.0.0": {
+        "dependencies": {
+          "Framework.Domain": "1.0.0",
+          "Framework.Test": "1.0.0",
+          "Microsoft.NET.Test.Sdk": "16.9.4",
+          "ReservationSystem.Domain": "1.0.0",
+          "xunit": "2.4.1"
+        },
+        "runtime": {
+          "ReservationSystem.Domain.TestsUtils.dll": {}
         }
       }
     }
@@ -1807,7 +1842,27 @@
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
+    "Framework.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Framework.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Framework.Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReservationSystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReservationSystem.Domain.TestsUtils/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

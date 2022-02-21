@@ -19,4 +19,10 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\framework\Framework.Domain\Framework.Domain.csproj" />
+    <ProjectReference Include="..\..\..\framework\Framework.Test\Framework.Test.csproj" />
+    <ProjectReference Include="..\..\..\Src\Domain\ReservationSystem.Domain\ReservationSystem.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

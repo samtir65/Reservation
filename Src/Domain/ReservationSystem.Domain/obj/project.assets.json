@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Framework.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Framework.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.Core.dll": {}
+        }
+      },
+      "Framework.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Framework.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Framework.Core/1.0.0": {
+      "type": "project",
+      "path": "../../../framework/Framework.Core/Framework.Core.csproj",
+      "msbuildProject": "../../../framework/Framework.Core/Framework.Core.csproj"
+    },
+    "Framework.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../framework/Framework.Domain/Framework.Domain.csproj",
+      "msbuildProject": "../../../framework/Framework.Domain/Framework.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Framework.Core >= 1.0.0",
+      "Framework.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\admin\\.nuget\\packages\\": {},
@@ -38,7 +73,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
+              "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj"
+            },
+            "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj": {
+              "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
