@@ -22,3 +22,8 @@ D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\obj\Deb
 D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.dll
 D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\obj\Debug\net5.0\ref\Framework.Domain.dll
 D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.pdb
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\bin\Debug\net5.0\Framework.Core.dll
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\bin\Debug\net5.0\Framework.NH.dll
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\bin\Debug\net5.0\Framework.Core.pdb
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\bin\Debug\net5.0\Framework.NH.pdb
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.Domain\obj\Debug\net5.0\Framework.Domain.csproj.CopyComplete

@@ -3,6 +3,6 @@
     public interface IReservationRepository
     {
         void Create(Reservation reservation);
-        Reservation GetBy(int Id);
+        Reservation GetBy(ReservationId reservationId);
     }
 }

@@ -9,14 +9,14 @@ namespace ReservationSystem.Domain.TestsUtils.Models.Reservations
 {
     public class  ReservationTestBuilder
     {
-        public long Id { get;private set; }
+        public ReservationId Id { get;private set; }
         public IClock CreatOn { get; set; }
         public long CustomerId { get;private set; }
         public long ServiceId { get;private set; }
         public long PersonelId { get;private set; }
         public ReservationTestBuilder()
         {
-            Id = GenerateRandom.Number();
+            Id = new ReservationId(GenerateRandom.Number()) ;
             CreatOn = new ClockStub(DateTime.Now);
             CustomerId = GenerateRandom.Number();
             ServiceId = GenerateRandom.Number();

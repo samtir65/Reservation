@@ -98,3 +98,4 @@ D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.NH.Tests.I
 D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\obj\Debug\net5.0\ref\ReservationSystem.NH.Tests.Integration.dll
 D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\obj\Debug\net5.0\ReservationSystem.NH.Tests.Integration.pdb
 D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\obj\Debug\net5.0\ReservationSystem.NH.Tests.Integration.genruntimeconfig.cache
+D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Debug\net5.0\CoverletSourceRootsMapping

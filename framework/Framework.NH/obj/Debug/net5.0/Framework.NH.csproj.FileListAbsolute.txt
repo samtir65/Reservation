@@ -1,0 +1,12 @@
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\bin\Debug\net5.0\Framework.NH.deps.json
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\bin\Debug\net5.0\Framework.NH.dll
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\bin\Debug\net5.0\ref\Framework.NH.dll
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\bin\Debug\net5.0\Framework.NH.pdb
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\obj\Debug\net5.0\Framework.NH.csproj.AssemblyReference.cache
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\obj\Debug\net5.0\Framework.NH.GeneratedMSBuildEditorConfig.editorconfig
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\obj\Debug\net5.0\Framework.NH.AssemblyInfoInputs.cache
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\obj\Debug\net5.0\Framework.NH.AssemblyInfo.cs
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\obj\Debug\net5.0\Framework.NH.csproj.CoreCompileInputs.cache
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\obj\Debug\net5.0\Framework.NH.dll
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\obj\Debug\net5.0\ref\Framework.NH.dll
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\obj\Debug\net5.0\Framework.NH.pdb

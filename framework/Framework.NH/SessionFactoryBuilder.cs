@@ -36,18 +36,8 @@ namespace Framework.NH
             modelMapper.AddMappings(mappingAssembly.GetExportedTypes());
             var mappingDocument = modelMapper.CompileMappingForAllExplicitlyAddedEntities();
             configuration.AddDeserializedMapping(mappingDocument, sessionName);
-            AddDomainEventListeners(configuration);
             return configuration.BuildSessionFactory();
         }
 
-        private static void AddDomainEventListeners(Configuration configuration)
-        {
-            var listener=new DomainEventListener();
-            configuration.SetListeners(ListenerType.PreUpdate, new[] {listener});
-            configuration.SetListeners(ListenerType.PreInsert, new[] { listener });
-            configuration.SetListeners(ListenerType.PreCollectionRecreate, new[] { listener });
-            configuration.SetListeners(ListenerType.PreCollectionUpdate, new[] { listener });
-
-        }
     }
 }
