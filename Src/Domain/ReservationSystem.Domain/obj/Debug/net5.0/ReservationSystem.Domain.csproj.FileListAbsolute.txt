@@ -17,3 +17,5 @@ D:\samira\ReservationSystem\ReservationSystem\Src\Domain\ReservationSystem.Domai
 D:\samira\ReservationSystem\ReservationSystem\Src\Domain\ReservationSystem.Domain\bin\Debug\net5.0\Framework.Core.pdb
 D:\samira\ReservationSystem\ReservationSystem\Src\Domain\ReservationSystem.Domain\bin\Debug\net5.0\Framework.NH.dll
 D:\samira\ReservationSystem\ReservationSystem\Src\Domain\ReservationSystem.Domain\bin\Debug\net5.0\Framework.NH.pdb
+D:\samira\ReservationSystem\ReservationSystem\Src\Domain\ReservationSystem.Domain\bin\Debug\net5.0\Framework.Application.dll
+D:\samira\ReservationSystem\ReservationSystem\Src\Domain\ReservationSystem.Domain\bin\Debug\net5.0\Framework.Application.pdb

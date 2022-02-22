@@ -19,3 +19,5 @@ D:\samira\ReservationSystem\ReservationSystem\Infrastructure\ReservationSystem.P
 D:\samira\ReservationSystem\ReservationSystem\Infrastructure\ReservationSystem.Persistence.NH\obj\Debug\net5.0\ReservationSystem.Persistence.NH.dll
 D:\samira\ReservationSystem\ReservationSystem\Infrastructure\ReservationSystem.Persistence.NH\obj\Debug\net5.0\ref\ReservationSystem.Persistence.NH.dll
 D:\samira\ReservationSystem\ReservationSystem\Infrastructure\ReservationSystem.Persistence.NH\obj\Debug\net5.0\ReservationSystem.Persistence.NH.pdb
+D:\samira\ReservationSystem\ReservationSystem\Infrastructure\ReservationSystem.Persistence.NH\bin\Debug\net5.0\Framework.Application.dll
+D:\samira\ReservationSystem\ReservationSystem\Infrastructure\ReservationSystem.Persistence.NH\bin\Debug\net5.0\Framework.Application.pdb

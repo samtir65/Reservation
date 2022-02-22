@@ -10,3 +10,6 @@ D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\obj\Debug\n
 D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\obj\Debug\net5.0\Framework.NH.dll
 D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\obj\Debug\net5.0\ref\Framework.NH.dll
 D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\obj\Debug\net5.0\Framework.NH.pdb
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\bin\Debug\net5.0\Framework.Application.dll
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\bin\Debug\net5.0\Framework.Application.pdb
+D:\samira\ReservationSystem\ReservationSystem\framework\Framework.NH\obj\Debug\net5.0\Framework.NH.csproj.CopyComplete

@@ -1164,6 +1164,11 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
+      "Framework.Application/1.0.0": {
+        "runtime": {
+          "Framework.Application.dll": {}
+        }
+      },
       "Framework.Core/1.0.0": {
         "runtime": {
           "Framework.Core.dll": {}
@@ -1181,6 +1186,7 @@
       },
       "Framework.NH/1.0.0": {
         "dependencies": {
+          "Framework.Application": "1.0.0",
           "NHibernate": "5.3.11",
           "Newtonsoft.Json": "13.0.1"
         },
@@ -1924,6 +1930,11 @@
       "sha512": "sha512-kZZSmOmKA8OBlAJaquPXnJJLM9RwQ27H7BMVqfMLUcTi9xHinWGJiWksa3D4NEtz0wZ/nxd2mogObvBgJKCRhQ==",
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
+    },
+    "Framework.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Framework.Core/1.0.0": {
       "type": "project",

@@ -123,3 +123,5 @@ D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.Domain.Tes
 D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.Domain.Tests.Unit\bin\Debug\net5.0\Remotion.Linq.EagerFetching.dll
 D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.Domain.Tests.Unit\bin\Debug\net5.0\Framework.NH.dll
 D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.Domain.Tests.Unit\bin\Debug\net5.0\Framework.NH.pdb
+D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.Domain.Tests.Unit\bin\Debug\net5.0\Framework.Application.dll
+D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.Domain.Tests.Unit\bin\Debug\net5.0\Framework.Application.pdb

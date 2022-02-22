@@ -2,6 +2,7 @@
 using ReservationSystem.Domain.Models.Reservations;
 using ReservationSystem.Domain.TestsUtils.Models.Reservations;
 using ReservationSystem.Persistence.NH.Repository.Reservations;
+using Xunit;
 
 namespace ReservationSystem.NH.Tests.Integration.Reservations
 {
@@ -14,6 +15,7 @@ namespace ReservationSystem.NH.Tests.Integration.Reservations
             _reservationRepository = new ReservationRepository(Session);
             _reservationTestBuilder = new ReservationTestBuilder();
         }
+        [Fact]
         public void register_reservation()
         {
             Session.BeginTransaction();
@@ -21,9 +23,6 @@ namespace ReservationSystem.NH.Tests.Integration.Reservations
             _reservationRepository.Create(reservation);
             Session.GetCurrentTransaction().Commit();
             Session.Clear();
-            
-            
         }
-        
     }
 }
