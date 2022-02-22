@@ -3,7 +3,7 @@
 namespace ReservationSystem.DatabaseMigrations
 {
     [Migration(1)]
-    public class initialReservation : AutoReversingMigration
+    public class InitialReservations : AutoReversingMigration
     {
         public override void Up()
         {
