@@ -510,7 +510,7 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.9.4, )"
+              "version": "[17.1.0, )"
             },
             "NHibernate": {
               "target": "Package",

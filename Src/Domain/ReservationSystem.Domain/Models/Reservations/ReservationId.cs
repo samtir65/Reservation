@@ -9,6 +9,5 @@ namespace ReservationSystem.Domain.Models.Reservations
 
         }
         protected ReservationId() { }
-
     }
 }

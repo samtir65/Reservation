@@ -1,4 +1,9 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9a2589c5_002Dc5ea_002D4646_002D99e4_002Ddb10a306422d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="register_reservation" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::01D35E0A-8077-47D3-BB28-AEC81E6D77D4::.NETCoreApp,Version=v5.0::ReservationSystem.NH.Tests.Integration.Reservations.ReservationRepositoryTest.register_reservation&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ac383022_002D787f_002D401e_002Da293_002D4566d0dccb3b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="construct_properly" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::0D9D0961-50FC-44F0-9A26-1E09D92547E5::.NETCoreApp,Version=v5.0::ReservationSystem.Domain.Tests.Unit.Models.ReservationTests&lt;/TestId&gt;&#xD;

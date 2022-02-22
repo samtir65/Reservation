@@ -18,5 +18,7 @@ namespace ReservationSystem.Domain.Models.Reservations
             ServiceId = serviceId;
             PersonelId = personelId;
         }
+
+        protected Reservation(){}
     }
 }

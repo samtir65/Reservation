@@ -6,5 +6,7 @@
             : base(id)
         {
         }
+
+        protected AggregateRoot(){}
     }
 }
