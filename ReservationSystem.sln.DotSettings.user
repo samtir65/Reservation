@@ -8,4 +8,9 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::0D9D0961-50FC-44F0-9A26-1E09D92547E5::.NETCoreApp,Version=v5.0::ReservationSystem.Domain.Tests.Unit.Models.ReservationTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d020caff_002D16ba_002D43db_002Dbed1_002Dc438497fd97b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="register_reservation #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::01D35E0A-8077-47D3-BB28-AEC81E6D77D4::.NETCoreApp,Version=v5.0::ReservationSystem.NH.Tests.Integration.Reservations.ReservationRepositoryTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

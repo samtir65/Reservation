@@ -43,6 +43,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{70
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationSyatem.Gateways.RestApi", "Gateways\ReservationSyatem.Gateways.RestApi\ReservationSyatem.Gateways.RestApi.csproj", "{5E4219C1-14F5-4D7D-AC9F-851CD6B9156D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{70224A9D-F121-4310-83DA-D4D86BDFEE01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReservationSystem.Application", "ReservationSystem.Application", "{55295256-EDFE-46C5-9E22-19D94249A7D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReservationSystem.Application.Contract", "ReservationSystem.Application.Contract", "{68025AD5-4D54-416B-A1AB-C017C434C4F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,6 +126,9 @@ Global
 		{9BE4D4ED-1314-4235-91AF-C6F279E33E06} = {4FD817BF-86A1-4C9F-999E-47382AAFAE8F}
 		{702797E3-8029-4C83-A780-9DB7211CF5BA} = {2272F3AD-71A9-4614-8621-888F08CF2432}
 		{5E4219C1-14F5-4D7D-AC9F-851CD6B9156D} = {702797E3-8029-4C83-A780-9DB7211CF5BA}
+		{70224A9D-F121-4310-83DA-D4D86BDFEE01} = {2272F3AD-71A9-4614-8621-888F08CF2432}
+		{55295256-EDFE-46C5-9E22-19D94249A7D6} = {70224A9D-F121-4310-83DA-D4D86BDFEE01}
+		{68025AD5-4D54-416B-A1AB-C017C434C4F6} = {70224A9D-F121-4310-83DA-D4D86BDFEE01}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F608A0B5-A14F-4210-A15C-AFBEB5049E9F}

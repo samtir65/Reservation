@@ -9,7 +9,7 @@ namespace ReservationSystem.Domain.TestsUtils.Models.Reservations
     public class ReservationTestBuilder
     {
         public ReservationId Id { get; private set; }
-        public IClock CreateOn { get; set; }
+        public IClock CreateOn { get; private set; }
         public long CustomerId { get; private set; }
         public long ServiceId { get; private set; }
         public long PersonelId { get; private set; }
@@ -23,7 +23,7 @@ namespace ReservationSystem.Domain.TestsUtils.Models.Reservations
         }
         public Reservation Build()
         {
-            return new Reservation(Id, CreateOn, CustomerId, ServiceId, PersonelId);
+            return new Reservation(Id,CreateOn, CustomerId, ServiceId, PersonelId);
 
         }
     }

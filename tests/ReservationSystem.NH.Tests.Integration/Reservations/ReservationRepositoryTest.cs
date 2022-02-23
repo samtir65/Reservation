@@ -1,4 +1,8 @@
-﻿using NHibernate;
+﻿using System;
+using FluentAssertions;
+using Framework.Core.Clock;
+using Framework.Test.ClockStubs;
+using NHibernate;
 using ReservationSystem.Domain.Models.Reservations;
 using ReservationSystem.Domain.TestsUtils.Models.Reservations;
 using ReservationSystem.Persistence.NH.Repository.Reservations;
@@ -10,10 +14,12 @@ namespace ReservationSystem.NH.Tests.Integration.Reservations
     {
         private readonly IReservationRepository _reservationRepository;
         private readonly ReservationTestBuilder _reservationTestBuilder;
+        //private readonly IClock _clock;
         public ReservationRepositoryTest()
         {
             _reservationRepository = new ReservationRepository(Session);
             _reservationTestBuilder = new ReservationTestBuilder();
+           // _clock = new ClockStub(DateTime.Now);
         }
         [Fact]
         public void register_reservation()
@@ -23,6 +29,10 @@ namespace ReservationSystem.NH.Tests.Integration.Reservations
             _reservationRepository.Create(reservation);
             Session.GetCurrentTransaction().Commit();
             Session.Clear();
+
+            var expectedReservationSystem = _reservationRepository.GetBy(reservation.Id);
+            expectedReservationSystem.Should().Be(reservation);
+
         }
     }
 }

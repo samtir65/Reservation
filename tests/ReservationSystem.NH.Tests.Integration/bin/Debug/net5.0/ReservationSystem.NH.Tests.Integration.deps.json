@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "ReservationSystem.NH.Tests.Integration/1.0.0": {
         "dependencies": {
+          "FluentAssertions": "6.5.1",
           "Framework.NH": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.1.0",
           "NHibernate": "5.3.11",
@@ -33,6 +34,17 @@
         }
       },
       "coverlet.collector/3.0.2": {},
+      "FluentAssertions/6.5.1": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.4.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FluentAssertions.dll": {
+            "assemblyVersion": "6.5.1.0",
+            "fileVersion": "6.5.1.0"
+          }
+        }
+      },
       "Iesi.Collections/4.0.4": {
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -1317,6 +1329,13 @@
       "sha512": "sha512-iBvPAIDaI7j/iMx/DzCGCJ3rdiOmel9VINEfaTiBv/NKIGHOP4X3hqc6Q1wgMtArEshlhXexQknP17SK4vXb1w==",
       "path": "coverlet.collector/3.0.2",
       "hashPath": "coverlet.collector.3.0.2.nupkg.sha512"
+    },
+    "FluentAssertions/6.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hdY/upTFYEc7SFJQ+pKsMZP1J5bELh9feB8kXzk6FKAGE/tvAPDzHd76Z+nIYdgnqkocthaDUq+tKPsGD0um2A==",
+      "path": "fluentassertions/6.5.1",
+      "hashPath": "fluentassertions.6.5.1.nupkg.sha512"
     },
     "Iesi.Collections/4.0.4": {
       "type": "package",
