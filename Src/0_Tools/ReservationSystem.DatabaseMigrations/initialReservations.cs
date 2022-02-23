@@ -7,7 +7,7 @@ namespace ReservationSystem.DatabaseMigrations
     {
         public override void Up()
         {
-            Create.Table("Reservation")
+            Create.Table("Reservations")
                 .WithColumn("Id").AsInt64().PrimaryKey().NotNullable()
                 .WithColumn("CreateOn").AsDateTime().NotNullable()
                 .WithColumn("CustomerId").AsString(500).NotNullable()

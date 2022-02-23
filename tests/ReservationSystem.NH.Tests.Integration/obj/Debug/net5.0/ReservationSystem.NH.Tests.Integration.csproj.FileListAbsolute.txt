@@ -126,3 +126,9 @@ D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.NH.Tests.I
 D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Debug\net5.0\Framework.Domain.pdb
 D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Debug\net5.0\Framework.Test.pdb
 D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Debug\net5.0\ReservationSystem.Domain.pdb
+D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

@@ -7,13 +7,13 @@ namespace ReservationSystem.Persistence.NH.Mapping.Reservations
     {
         public ReservationMapping()
         {
-            Table("__Reservation__");
+            Table("Reservations");
             Lazy(false);
             ComponentAsId(x => x.Id, map =>
             {
                 map.Property(x => x.DbId, z => z.Column("Id"));
             });
-            Property(x => x.CreatOn);
+            Property(x => x.CreateOn);
             Property(x => x.CustomerId);
             Property(x => x.PersonelId);
             Property(x => x.ServiceId);

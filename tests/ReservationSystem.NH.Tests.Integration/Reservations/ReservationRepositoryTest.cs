@@ -4,7 +4,7 @@ using ReservationSystem.Domain.TestsUtils.Models.Reservations;
 using ReservationSystem.Persistence.NH.Repository.Reservations;
 using Xunit;
 
-namespace ReservationSystem.NH.Tests.Integration.Reservations
+namespace ReservationSystem.NH.Tests.Integration.Reservations                                                                                          
 {
     public class ReservationRepositoryTest:BasePersistenceTest
     {

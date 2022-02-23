@@ -17,7 +17,7 @@ namespace ReservationSystem.Domain.Tests.Unit.Models
         {
             var reservation = _reservationTestBuilder.Build();
             reservation.Id.Should().Be(_reservationTestBuilder.Id);
-            reservation.CreatOn.Should().Be(_reservationTestBuilder.CreatOn.Now());
+            reservation.CreateOn.Should().Be(_reservationTestBuilder.CreateOn.Now());
             reservation.CustomerId.Should().Be(_reservationTestBuilder.CustomerId);
             reservation.ServiceId.Should().Be(_reservationTestBuilder.ServiceId);
             reservation.PersonelId.Should().Be(_reservationTestBuilder.PersonelId);
