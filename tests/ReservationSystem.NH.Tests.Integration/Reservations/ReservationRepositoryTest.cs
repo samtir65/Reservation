@@ -14,12 +14,12 @@ namespace ReservationSystem.NH.Tests.Integration.Reservations
     {
         private readonly IReservationRepository _reservationRepository;
         private readonly ReservationTestBuilder _reservationTestBuilder;
-        //private readonly IClock _clock;
+        private readonly IClock _clock;
         public ReservationRepositoryTest()
         {
             _reservationRepository = new ReservationRepository(Session);
             _reservationTestBuilder = new ReservationTestBuilder();
-           // _clock = new ClockStub(DateTime.Now);
+            _clock = new ClockStub(DateTime.Now);
         }
         [Fact]
         public void register_reservation()
