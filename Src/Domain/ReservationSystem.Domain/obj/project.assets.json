@@ -5399,28 +5399,27 @@
     },
     "Framework.Application/1.0.0": {
       "type": "project",
-      "path": "../../../framework/Framework.Application/Framework.Application.csproj",
-      "msbuildProject": "../../../framework/Framework.Application/Framework.Application.csproj"
+      "path": "../../Framework/Framework.Application/Framework.Application.csproj",
+      "msbuildProject": "../../Framework/Framework.Application/Framework.Application.csproj"
     },
     "Framework.Core/1.0.0": {
       "type": "project",
-      "path": "../../../framework/Framework.Core/Framework.Core.csproj",
-      "msbuildProject": "../../../framework/Framework.Core/Framework.Core.csproj"
+      "path": "../../Framework/Framework.Core/Framework.Core.csproj",
+      "msbuildProject": "../../Framework/Framework.Core/Framework.Core.csproj"
     },
     "Framework.Domain/1.0.0": {
       "type": "project",
-      "path": "../../../framework/Framework.Domain/Framework.Domain.csproj",
-      "msbuildProject": "../../../framework/Framework.Domain/Framework.Domain.csproj"
+      "path": "../../Framework/Framework.Domain/Framework.Domain.csproj",
+      "msbuildProject": "../../Framework/Framework.Domain/Framework.Domain.csproj"
     },
     "Framework.NH/1.0.0": {
       "type": "project",
-      "path": "../../../framework/Framework.NH/Framework.NH.csproj",
-      "msbuildProject": "../../../framework/Framework.NH/Framework.NH.csproj"
+      "path": "../../Framework/Framework.NH/Framework.NH.csproj",
+      "msbuildProject": "../../Framework/Framework.NH/Framework.NH.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Framework.Core >= 1.0.0",
       "Framework.Domain >= 1.0.0"
     ]
   },
@@ -5456,11 +5455,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
-              "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj"
-            },
-            "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj": {
-              "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj"
+            "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Domain\\Framework.Domain.csproj": {
+              "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Domain\\Framework.Domain.csproj"
             }
           }
         }

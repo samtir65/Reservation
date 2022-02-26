@@ -20,9 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\framework\Framework.Domain\Framework.Domain.csproj" />
-    <ProjectReference Include="..\..\..\framework\Framework.Test\Framework.Test.csproj" />
     <ProjectReference Include="..\..\..\Src\Domain\ReservationSystem.Domain\ReservationSystem.Domain.csproj" />
+    <ProjectReference Include="..\..\..\Src\Framework\Framework.Test\Framework.Test.csproj" />
   </ItemGroup>
 
 </Project>

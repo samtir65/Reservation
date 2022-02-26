@@ -9,7 +9,6 @@
       "ReservationSystem.Domain.Tests.Unit/1.0.0": {
         "dependencies": {
           "FluentAssertions": "6.5.1",
-          "Framework.Domain": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.9.4",
           "ReservationSystem.Domain.TestsUtils": "1.0.0",
           "coverlet.collector": "3.0.2",
@@ -1278,7 +1277,6 @@
       },
       "ReservationSystem.Domain/1.0.0": {
         "dependencies": {
-          "Framework.Core": "1.0.0",
           "Framework.Domain": "1.0.0"
         },
         "runtime": {
@@ -1287,7 +1285,6 @@
       },
       "ReservationSystem.Domain.TestsUtils/1.0.0": {
         "dependencies": {
-          "Framework.Domain": "1.0.0",
           "Framework.Test": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.9.4",
           "ReservationSystem.Domain": "1.0.0",

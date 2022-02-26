@@ -21,7 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\framework\Framework.Domain\Framework.Domain.csproj" />
     <ProjectReference Include="..\Utils\ReservationSystem.Domain.TestsUtils\ReservationSystem.Domain.TestsUtils.csproj" />
   </ItemGroup>
 

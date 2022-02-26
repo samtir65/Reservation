@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v5.0": {
       "ReservationSystem.Domain.TestsUtils/1.0.0": {
         "dependencies": {
-          "Framework.Domain": "1.0.0",
           "Framework.Test": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.9.4",
           "ReservationSystem.Domain": "1.0.0",
@@ -1267,7 +1266,6 @@
       },
       "ReservationSystem.Domain/1.0.0": {
         "dependencies": {
-          "Framework.Core": "1.0.0",
           "Framework.Domain": "1.0.0"
         },
         "runtime": {

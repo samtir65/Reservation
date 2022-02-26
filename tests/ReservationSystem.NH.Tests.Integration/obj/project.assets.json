@@ -1936,7 +1936,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Framework.Core": "1.0.0",
           "Framework.Domain": "1.0.0"
         },
         "compile": {
@@ -1950,7 +1949,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Framework.Domain": "1.0.0",
           "Framework.Test": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.9.4",
           "ReservationSystem.Domain": "1.0.0",
@@ -6672,28 +6670,28 @@
     },
     "Framework.Application/1.0.0": {
       "type": "project",
-      "path": "../../framework/Framework.Application/Framework.Application.csproj",
-      "msbuildProject": "../../framework/Framework.Application/Framework.Application.csproj"
+      "path": "../../Src/Framework/Framework.Application/Framework.Application.csproj",
+      "msbuildProject": "../../Src/Framework/Framework.Application/Framework.Application.csproj"
     },
     "Framework.Core/1.0.0": {
       "type": "project",
-      "path": "../../framework/Framework.Core/Framework.Core.csproj",
-      "msbuildProject": "../../framework/Framework.Core/Framework.Core.csproj"
+      "path": "../../Src/Framework/Framework.Core/Framework.Core.csproj",
+      "msbuildProject": "../../Src/Framework/Framework.Core/Framework.Core.csproj"
     },
     "Framework.Domain/1.0.0": {
       "type": "project",
-      "path": "../../framework/Framework.Domain/Framework.Domain.csproj",
-      "msbuildProject": "../../framework/Framework.Domain/Framework.Domain.csproj"
+      "path": "../../Src/Framework/Framework.Domain/Framework.Domain.csproj",
+      "msbuildProject": "../../Src/Framework/Framework.Domain/Framework.Domain.csproj"
     },
     "Framework.NH/1.0.0": {
       "type": "project",
-      "path": "../../framework/Framework.NH/Framework.NH.csproj",
-      "msbuildProject": "../../framework/Framework.NH/Framework.NH.csproj"
+      "path": "../../Src/Framework/Framework.NH/Framework.NH.csproj",
+      "msbuildProject": "../../Src/Framework/Framework.NH/Framework.NH.csproj"
     },
     "Framework.Test/1.0.0": {
       "type": "project",
-      "path": "../../framework/Framework.Test/Framework.Test.csproj",
-      "msbuildProject": "../../framework/Framework.Test/Framework.Test.csproj"
+      "path": "../../Src/Framework/Framework.Test/Framework.Test.csproj",
+      "msbuildProject": "../../Src/Framework/Framework.Test/Framework.Test.csproj"
     },
     "ReservationSystem.Domain/1.0.0": {
       "type": "project",
@@ -6707,14 +6705,14 @@
     },
     "ReservationSystem.Persistence.NH/1.0.0": {
       "type": "project",
-      "path": "../../Infrastructure/ReservationSystem.Persistence.NH/ReservationSystem.Persistence.NH.csproj",
-      "msbuildProject": "../../Infrastructure/ReservationSystem.Persistence.NH/ReservationSystem.Persistence.NH.csproj"
+      "path": "../../Src/Infrastructure/ReservationSystem.Persistence.NH/ReservationSystem.Persistence.NH.csproj",
+      "msbuildProject": "../../Src/Infrastructure/ReservationSystem.Persistence.NH/ReservationSystem.Persistence.NH.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "FluentAssertions >= 6.5.1",
-      "Framework.NH >= 1.0.0",
+      "Framework.Test >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "NHibernate >= 5.3.11",
       "ReservationSystem.Domain.TestsUtils >= 1.0.0",
@@ -6756,11 +6754,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj": {
-              "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj"
+            "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Test\\Framework.Test.csproj": {
+              "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Test\\Framework.Test.csproj"
             },
-            "D:\\samira\\ReservationSystem\\Infrastructure\\ReservationSystem.Persistence.NH\\ReservationSystem.Persistence.NH.csproj": {
-              "projectPath": "D:\\samira\\ReservationSystem\\Infrastructure\\ReservationSystem.Persistence.NH\\ReservationSystem.Persistence.NH.csproj"
+            "D:\\samira\\ReservationSystem\\Src\\Infrastructure\\ReservationSystem.Persistence.NH\\ReservationSystem.Persistence.NH.csproj": {
+              "projectPath": "D:\\samira\\ReservationSystem\\Src\\Infrastructure\\ReservationSystem.Persistence.NH\\ReservationSystem.Persistence.NH.csproj"
             },
             "D:\\samira\\ReservationSystem\\tests\\Utils\\ReservationSystem.Domain.TestsUtils\\ReservationSystem.Domain.TestsUtils.csproj": {
               "projectPath": "D:\\samira\\ReservationSystem\\tests\\Utils\\ReservationSystem.Domain.TestsUtils\\ReservationSystem.Domain.TestsUtils.csproj"

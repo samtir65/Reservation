@@ -27,9 +27,9 @@ D:\samira\ReservationSystem\Src\Domain\ReservationSystem.Domain\bin\Debug\net5.0
 D:\samira\ReservationSystem\Src\Domain\ReservationSystem.Domain\bin\Debug\net5.0\Framework.Core.dll
 D:\samira\ReservationSystem\Src\Domain\ReservationSystem.Domain\bin\Debug\net5.0\Framework.Domain.dll
 D:\samira\ReservationSystem\Src\Domain\ReservationSystem.Domain\bin\Debug\net5.0\Framework.NH.dll
-D:\samira\ReservationSystem\Src\Domain\ReservationSystem.Domain\bin\Debug\net5.0\Framework.Core.pdb
 D:\samira\ReservationSystem\Src\Domain\ReservationSystem.Domain\bin\Debug\net5.0\Framework.Domain.pdb
 D:\samira\ReservationSystem\Src\Domain\ReservationSystem.Domain\bin\Debug\net5.0\Framework.Application.pdb
+D:\samira\ReservationSystem\Src\Domain\ReservationSystem.Domain\bin\Debug\net5.0\Framework.Core.pdb
 D:\samira\ReservationSystem\Src\Domain\ReservationSystem.Domain\bin\Debug\net5.0\Framework.NH.pdb
 D:\samira\ReservationSystem\Src\Domain\ReservationSystem.Domain\obj\Debug\net5.0\ReservationSystem.Domain.csproj.AssemblyReference.cache
 D:\samira\ReservationSystem\Src\Domain\ReservationSystem.Domain\obj\Debug\net5.0\ReservationSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig

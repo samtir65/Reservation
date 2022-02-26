@@ -1,5 +1,6 @@
 ﻿using System;
 using FluentAssertions;
+using FluentAssertions.Common;
 using Framework.Core.Clock;
 using Framework.Test.ClockStubs;
 using NHibernate;
@@ -7,6 +8,7 @@ using ReservationSystem.Domain.Models.Reservations;
 using ReservationSystem.Domain.TestsUtils.Models.Reservations;
 using ReservationSystem.Persistence.NH.Repository.Reservations;
 using Xunit;
+using IClock = Framework.Core.Clock.IClock;
 
 namespace ReservationSystem.NH.Tests.Integration.Reservations                                                                                          
 {

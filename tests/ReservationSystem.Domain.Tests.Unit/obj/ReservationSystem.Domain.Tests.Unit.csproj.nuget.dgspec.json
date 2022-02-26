@@ -4,130 +4,14 @@
     "D:\\samira\\ReservationSystem\\tests\\ReservationSystem.Domain.Tests.Unit\\ReservationSystem.Domain.Tests.Unit.csproj": {}
   },
   "projects": {
-    "D:\\samira\\ReservationSystem\\framework\\Framework.Application\\Framework.Application.csproj": {
+    "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\samira\\ReservationSystem\\framework\\Framework.Application\\Framework.Application.csproj",
-        "projectName": "Framework.Application",
-        "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Application\\Framework.Application.csproj",
+        "projectUniqueName": "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj",
+        "projectName": "ReservationSystem.Domain",
+        "projectPath": "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Application\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://94.182.184.164:4141/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj",
-        "projectName": "Framework.Core",
-        "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://94.182.184.164:4141/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj",
-        "projectName": "Framework.Domain",
-        "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\obj\\",
+        "outputPath": "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -148,11 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
-                "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj"
-              },
-              "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj": {
-                "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj"
+              "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Domain\\Framework.Domain.csproj": {
+                "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Domain\\Framework.Domain.csproj"
               }
             }
           }
@@ -185,14 +66,130 @@
         }
       }
     },
-    "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj": {
+    "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Application\\Framework.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj",
-        "projectName": "Framework.NH",
-        "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj",
+        "projectUniqueName": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Application\\Framework.Application.csproj",
+        "projectName": "Framework.Application",
+        "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Application\\Framework.Application.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\obj\\",
+        "outputPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://94.182.184.164:4141/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Core\\Framework.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Core\\Framework.Core.csproj",
+        "projectName": "Framework.Core",
+        "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Core\\Framework.Core.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://94.182.184.164:4141/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Domain\\Framework.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Domain\\Framework.Domain.csproj",
+        "projectName": "Framework.Domain",
+        "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Domain\\Framework.Domain.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -213,8 +210,73 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\samira\\ReservationSystem\\framework\\Framework.Application\\Framework.Application.csproj": {
-                "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Application\\Framework.Application.csproj"
+              "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Core\\Framework.Core.csproj": {
+                "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Core\\Framework.Core.csproj"
+              },
+              "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.NH\\Framework.NH.csproj": {
+                "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.NH\\Framework.NH.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.NH\\Framework.NH.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.NH\\Framework.NH.csproj",
+        "projectName": "Framework.NH",
+        "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.NH\\Framework.NH.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.NH\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://94.182.184.164:4141/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Application\\Framework.Application.csproj": {
+                "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Application\\Framework.Application.csproj"
               }
             }
           }
@@ -261,14 +323,14 @@
         }
       }
     },
-    "D:\\samira\\ReservationSystem\\framework\\Framework.Test\\Framework.Test.csproj": {
+    "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Test\\Framework.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\samira\\ReservationSystem\\framework\\Framework.Test\\Framework.Test.csproj",
+        "projectUniqueName": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Test\\Framework.Test.csproj",
         "projectName": "Framework.Test",
-        "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Test\\Framework.Test.csproj",
+        "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Test\\Framework.Test.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Test\\obj\\",
+        "outputPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -289,73 +351,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
-                "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj",
-        "projectName": "ReservationSystem.Domain",
-        "projectPath": "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://94.182.184.164:4141/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
-                "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj"
-              },
-              "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj": {
-                "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj"
+              "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Core\\Framework.Core.csproj": {
+                "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Core\\Framework.Core.csproj"
               }
             }
           }
@@ -416,9 +413,6 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj": {
-                "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj"
-              },
               "D:\\samira\\ReservationSystem\\tests\\Utils\\ReservationSystem.Domain.TestsUtils\\ReservationSystem.Domain.TestsUtils.csproj": {
                 "projectPath": "D:\\samira\\ReservationSystem\\tests\\Utils\\ReservationSystem.Domain.TestsUtils\\ReservationSystem.Domain.TestsUtils.csproj"
               }
@@ -507,14 +501,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj": {
-                "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj"
-              },
-              "D:\\samira\\ReservationSystem\\framework\\Framework.Test\\Framework.Test.csproj": {
-                "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Test\\Framework.Test.csproj"
-              },
               "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj": {
                 "projectPath": "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj"
+              },
+              "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Test\\Framework.Test.csproj": {
+                "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Test\\Framework.Test.csproj"
               }
             }
           }

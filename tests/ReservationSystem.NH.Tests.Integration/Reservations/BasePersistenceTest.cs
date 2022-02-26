@@ -6,7 +6,6 @@ using NHibernate;
 using NHibernate.Engine;
 using NHibernate.Type;
 using ReservationSystem.Persistence.NH.Mapping.Reservations;
-using Respect.NH;
 
 namespace ReservationSystem.NH.Tests.Integration.Reservations
 {
