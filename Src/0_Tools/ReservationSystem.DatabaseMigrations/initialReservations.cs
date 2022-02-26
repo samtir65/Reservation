@@ -10,9 +10,9 @@ namespace ReservationSystem.DatabaseMigrations
             Create.Table("Reservations")
                 .WithColumn("Id").AsInt64().PrimaryKey().NotNullable()
                 .WithColumn("CreateOn").AsDateTime().NotNullable()
-                .WithColumn("CustomerId").AsString(500).NotNullable()
+                .WithColumn("CustomerId").AsInt64().NotNullable()
                 .WithColumn("ServiceId").AsInt64().NotNullable()
-                .WithColumn("PersonelId").AsDateTime().Nullable();
+                .WithColumn("PersonelId").AsInt64().NotNullable();
         }
     }
 }

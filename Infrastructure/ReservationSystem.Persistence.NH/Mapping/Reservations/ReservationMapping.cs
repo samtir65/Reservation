@@ -14,12 +14,6 @@ namespace ReservationSystem.Persistence.NH.Mapping.Reservations
             {
                 map.Property(x => x.DbId, z => z.Column("Id"));
             });
-            Version(x => x.RowVersion, map =>
-            {
-                map.Generated(VersionGeneration.Never);
-                map.UnsavedValue(0);
-                map.Type(new NHibernate.Type.Int32Type());
-            });
             Property(x => x.CreateOn);
             Property(x => x.CustomerId);
             Property(x => x.PersonelId);

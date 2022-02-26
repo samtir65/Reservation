@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {}
+    "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {}
   },
   "projects": {
-    "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
+    "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj",
+        "projectUniqueName": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj",
         "projectName": "Framework.Core",
-        "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj",
+        "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\obj\\",
+        "outputPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

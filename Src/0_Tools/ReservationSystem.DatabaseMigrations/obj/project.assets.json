@@ -1041,11 +1041,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\samira\\ReservationSystem\\ReservationSystem\\Src\\0_Tools\\ReservationSystem.DatabaseMigrations\\ReservationSystem.DatabaseMigrations.csproj",
+      "projectUniqueName": "D:\\samira\\ReservationSystem\\Src\\0_Tools\\ReservationSystem.DatabaseMigrations\\ReservationSystem.DatabaseMigrations.csproj",
       "projectName": "ReservationSystem.DatabaseMigrations",
-      "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\Src\\0_Tools\\ReservationSystem.DatabaseMigrations\\ReservationSystem.DatabaseMigrations.csproj",
+      "projectPath": "D:\\samira\\ReservationSystem\\Src\\0_Tools\\ReservationSystem.DatabaseMigrations\\ReservationSystem.DatabaseMigrations.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\Src\\0_Tools\\ReservationSystem.DatabaseMigrations\\obj\\",
+      "outputPath": "D:\\samira\\ReservationSystem\\Src\\0_Tools\\ReservationSystem.DatabaseMigrations\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

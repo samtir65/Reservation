@@ -31,7 +31,7 @@ namespace ReservationSystem.NH.Tests.Integration.Reservations
             Session.Clear();
 
             var expectedReservationSystem = _reservationRepository.GetBy(reservation.Id);
-            expectedReservationSystem.Should().Be(reservation);
+            expectedReservationSystem.Should().BeEquivalentTo(reservation);
 
         }
     }

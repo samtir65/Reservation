@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+IwMdARx616b60BCRbijCoQxeuSeh1pAk+4S/DQWk0+9N1Xi40xe1JOCT/aw3A4ipw1aunkQCIx3z4cmjWX65Q==",
+  "dgSpecHash": "stROU/NLMjfYqJaBbIY9HolyTeU4Oac6EZ4KRtzsJJNIyYamMeWJQsEnTipS7EoAXIQOjitT/Xc0U8EyngNIrQ==",
   "success": true,
-  "projectFilePath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj",
+  "projectFilePath": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

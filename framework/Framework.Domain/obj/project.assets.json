@@ -5412,11 +5412,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj",
+      "projectUniqueName": "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj",
       "projectName": "Framework.Domain",
-      "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj",
+      "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Domain\\obj\\",
+      "outputPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5437,11 +5437,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
-              "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj"
+            "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
+              "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj"
             },
-            "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj": {
-              "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj"
+            "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj": {
+              "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj"
             }
           }
         }

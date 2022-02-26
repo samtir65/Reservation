@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\samira\\ReservationSystem\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj": {}
+    "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj": {}
   },
   "projects": {
-    "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Application\\Framework.Application.csproj": {
+    "D:\\samira\\ReservationSystem\\framework\\Framework.Application\\Framework.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Application\\Framework.Application.csproj",
+        "projectUniqueName": "D:\\samira\\ReservationSystem\\framework\\Framework.Application\\Framework.Application.csproj",
         "projectName": "Framework.Application",
-        "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Application\\Framework.Application.csproj",
+        "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Application\\Framework.Application.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Application\\obj\\",
+        "outputPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
+    "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj",
+        "projectUniqueName": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj",
         "projectName": "Framework.Core",
-        "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj",
+        "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\obj\\",
+        "outputPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -120,14 +120,14 @@
         }
       }
     },
-    "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj": {
+    "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj",
+        "projectUniqueName": "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj",
         "projectName": "Framework.Domain",
-        "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj",
+        "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Domain\\obj\\",
+        "outputPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -148,11 +148,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
-                "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj"
+              "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
+                "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj"
               },
-              "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj": {
-                "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj"
+              "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj": {
+                "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj"
               }
             }
           }
@@ -185,14 +185,14 @@
         }
       }
     },
-    "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj": {
+    "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj",
+        "projectUniqueName": "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj",
         "projectName": "Framework.NH",
-        "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj",
+        "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\Framework.NH.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.NH\\obj\\",
+        "outputPath": "D:\\samira\\ReservationSystem\\framework\\Framework.NH\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -213,8 +213,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Application\\Framework.Application.csproj": {
-                "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Application\\Framework.Application.csproj"
+              "D:\\samira\\ReservationSystem\\framework\\Framework.Application\\Framework.Application.csproj": {
+                "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Application\\Framework.Application.csproj"
               }
             }
           }
@@ -261,14 +261,14 @@
         }
       }
     },
-    "D:\\samira\\ReservationSystem\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj": {
+    "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\samira\\ReservationSystem\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj",
+        "projectUniqueName": "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj",
         "projectName": "ReservationSystem.Domain",
-        "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj",
+        "projectPath": "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\ReservationSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\obj\\",
+        "outputPath": "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -289,11 +289,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
-                "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj"
+              "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj": {
+                "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Core\\Framework.Core.csproj"
               },
-              "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj": {
-                "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj"
+              "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj": {
+                "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj"
               }
             }
           }

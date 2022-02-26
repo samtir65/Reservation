@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = ReservationSystem.Domain.Tests.Unit
-build_property.ProjectDir = D:\samira\ReservationSystem\ReservationSystem\tests\ReservationSystem.Domain.Tests.Unit\
+build_property.ProjectDir = D:\samira\ReservationSystem\tests\ReservationSystem.Domain.Tests.Unit\

@@ -6650,11 +6650,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\samira\\ReservationSystem\\ReservationSystem\\tests\\ReservationSystem.Domain.Tests.Unit\\ReservationSystem.Domain.Tests.Unit.csproj",
+      "projectUniqueName": "D:\\samira\\ReservationSystem\\tests\\ReservationSystem.Domain.Tests.Unit\\ReservationSystem.Domain.Tests.Unit.csproj",
       "projectName": "ReservationSystem.Domain.Tests.Unit",
-      "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\tests\\ReservationSystem.Domain.Tests.Unit\\ReservationSystem.Domain.Tests.Unit.csproj",
+      "projectPath": "D:\\samira\\ReservationSystem\\tests\\ReservationSystem.Domain.Tests.Unit\\ReservationSystem.Domain.Tests.Unit.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\tests\\ReservationSystem.Domain.Tests.Unit\\obj\\",
+      "outputPath": "D:\\samira\\ReservationSystem\\tests\\ReservationSystem.Domain.Tests.Unit\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6675,11 +6675,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj": {
-              "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj"
+            "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj": {
+              "projectPath": "D:\\samira\\ReservationSystem\\framework\\Framework.Domain\\Framework.Domain.csproj"
             },
-            "D:\\samira\\ReservationSystem\\ReservationSystem\\tests\\Utils\\ReservationSystem.Domain.TestsUtils\\ReservationSystem.Domain.TestsUtils.csproj": {
-              "projectPath": "D:\\samira\\ReservationSystem\\ReservationSystem\\tests\\Utils\\ReservationSystem.Domain.TestsUtils\\ReservationSystem.Domain.TestsUtils.csproj"
+            "D:\\samira\\ReservationSystem\\tests\\Utils\\ReservationSystem.Domain.TestsUtils\\ReservationSystem.Domain.TestsUtils.csproj": {
+              "projectPath": "D:\\samira\\ReservationSystem\\tests\\Utils\\ReservationSystem.Domain.TestsUtils\\ReservationSystem.Domain.TestsUtils.csproj"
             }
           }
         }
