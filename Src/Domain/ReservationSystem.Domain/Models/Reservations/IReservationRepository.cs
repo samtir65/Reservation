@@ -4,5 +4,6 @@
     {
         void Create(Reservation reservation);
         Reservation GetBy(ReservationId reservationId);
+        ReservationId GetNextId();
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ReservationSystem.Application.Contracts
+namespace Reservations.Gateways.Subscriber
 {
     public class Class1
     {

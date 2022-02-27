@@ -2,9 +2,9 @@
 
 namespace ReservationSystem.Domain.Models.Reservations
 {
-    public class ReservationId:IdBase<int>
+    public class ReservationId:IdBase<long>
     {
-        public ReservationId(int id) : base(id)
+        public ReservationId(long id) : base(id)
         {
 
         }

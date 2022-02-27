@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\ReservationSystem.Application.Contracts\ReservationSystem.Application.Contracts.csproj" />
+    <ProjectReference Include="..\..\Domain\ReservationSystem.Domailn.Contract\ReservationSystem.Domailn.Contract.csproj" />
+    <ProjectReference Include="..\..\Framework\Framework.NH\Framework.NH.csproj" />
+  </ItemGroup>
+
+</Project>

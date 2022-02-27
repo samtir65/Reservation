@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ReservationSystem.Application
+namespace Reservations.Gateway.Facade.Query
 {
     public class Class1
     {

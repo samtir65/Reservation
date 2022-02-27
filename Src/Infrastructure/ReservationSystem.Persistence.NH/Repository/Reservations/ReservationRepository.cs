@@ -1,4 +1,5 @@
-﻿using NHibernate;
+﻿using Framework.NH;
+using NHibernate;
 using ReservationSystem.Domain.Models.Reservations;
 using System.Linq;
 
@@ -21,6 +22,11 @@ namespace ReservationSystem.Persistence.NH.Repository.Reservations
         {
             return _session.Query<Reservation>().FirstOrDefault(x => x.Id.DbId == reservationId.DbId);
 
+        }
+        public ReservationId GetNextId()
+        {
+            var idValue = _session.GetNextSequence("sequenceReservation");
+            return new ReservationId(idValue);
         }
     }
 }
