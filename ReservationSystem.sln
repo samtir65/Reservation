@@ -39,8 +39,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateways", "Gateways", "{3E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5ED2BD81-0851-4190-98E5-59B1FF1EF855}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSyatem.Gateways.RestApi", "Src\Gateways\ReservationSyatem.Gateways.RestApi\ReservationSyatem.Gateways.RestApi.csproj", "{B4354F02-65B0-4887-992A-9471318C5A26}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Persistence.NH", "Src\Infrastructure\ReservationSystem.Persistence.NH\ReservationSystem.Persistence.NH.csproj", "{B8CB999F-4CE5-445F-8D50-B5EC75A26ABC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{53D9D5C7-E690-458A-8E20-18A8B3782FAD}"
@@ -49,13 +47,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Applicati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Application.Contracts", "Src\Application\ReservationSystem.Application.Contracts\ReservationSystem.Application.Contracts.csproj", "{C23B744F-1886-43D3-A627-92A5964E7E99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservations.Gateway.Facade", "Src\Gateways\Reservations.Gateway.Facade\Reservations.Gateway.Facade.csproj", "{D5178A7C-FE8E-466F-B372-FF6D1E058A07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservations.Gateway.Facade", "Src\Gateways\Reservations.Gateway.Facade\Reservations.Gateway.Facade.csproj", "{D5178A7C-FE8E-466F-B372-FF6D1E058A07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservations.Gateway.Facade.Query", "Src\Gateways\Reservations.Gateway.Facade.Query\Reservations.Gateway.Facade.Query.csproj", "{0F73AD99-A5F9-4DAE-BA11-440E8B2C590B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservations.Gateway.Facade.Query", "Src\Gateways\Reservations.Gateway.Facade.Query\Reservations.Gateway.Facade.Query.csproj", "{0F73AD99-A5F9-4DAE-BA11-440E8B2C590B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservations.Gateways.Subscriber", "Src\Gateways\Reservations.Gateways.Subscriber\Reservations.Gateways.Subscriber.csproj", "{C3E7B812-A50A-4190-BBCC-80927332102F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservations.Gateways.Subscriber", "Src\Gateways\Reservations.Gateways.Subscriber\Reservations.Gateways.Subscriber.csproj", "{C3E7B812-A50A-4190-BBCC-80927332102F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationSystem.Domailn.Contract", "Src\Domain\ReservationSystem.Domailn.Contract\ReservationSystem.Domailn.Contract.csproj", "{70D126D8-F6B9-4529-8573-1B1AAF5C849B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Domailn.Contract", "Src\Domain\ReservationSystem.Domailn.Contract\ReservationSystem.Domailn.Contract.csproj", "{70D126D8-F6B9-4529-8573-1B1AAF5C849B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationSyatem.Gateways.RestApi", "Src\Gateways\ReservationSyatem.Gateways.RestApi\ReservationSyatem.Gateways.RestApi\ReservationSyatem.Gateways.RestApi.csproj", "{BB75ABB4-16DB-47A6-B48A-CBCB6CFCA71E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationSystem.Config", "Infrastructure\ReservationSystem.Config\ReservationSystem.Config\ReservationSystem.Config.csproj", "{688BDAA9-C7D3-45CB-847C-49EFD19277F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,10 +105,6 @@ Global
 		{2139E376-F11C-41AA-A180-2763E34D8763}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2139E376-F11C-41AA-A180-2763E34D8763}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2139E376-F11C-41AA-A180-2763E34D8763}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4354F02-65B0-4887-992A-9471318C5A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4354F02-65B0-4887-992A-9471318C5A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4354F02-65B0-4887-992A-9471318C5A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4354F02-65B0-4887-992A-9471318C5A26}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B8CB999F-4CE5-445F-8D50-B5EC75A26ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B8CB999F-4CE5-445F-8D50-B5EC75A26ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8CB999F-4CE5-445F-8D50-B5EC75A26ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -135,6 +133,14 @@ Global
 		{70D126D8-F6B9-4529-8573-1B1AAF5C849B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70D126D8-F6B9-4529-8573-1B1AAF5C849B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70D126D8-F6B9-4529-8573-1B1AAF5C849B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB75ABB4-16DB-47A6-B48A-CBCB6CFCA71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB75ABB4-16DB-47A6-B48A-CBCB6CFCA71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB75ABB4-16DB-47A6-B48A-CBCB6CFCA71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB75ABB4-16DB-47A6-B48A-CBCB6CFCA71E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688BDAA9-C7D3-45CB-847C-49EFD19277F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688BDAA9-C7D3-45CB-847C-49EFD19277F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688BDAA9-C7D3-45CB-847C-49EFD19277F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688BDAA9-C7D3-45CB-847C-49EFD19277F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -156,7 +162,6 @@ Global
 		{2139E376-F11C-41AA-A180-2763E34D8763} = {32B86040-FD6A-4745-B60A-E26A9888EE0E}
 		{3ED6FA95-8B1D-40E0-8653-B67FA0DDF041} = {2272F3AD-71A9-4614-8621-888F08CF2432}
 		{5ED2BD81-0851-4190-98E5-59B1FF1EF855} = {2272F3AD-71A9-4614-8621-888F08CF2432}
-		{B4354F02-65B0-4887-992A-9471318C5A26} = {3ED6FA95-8B1D-40E0-8653-B67FA0DDF041}
 		{B8CB999F-4CE5-445F-8D50-B5EC75A26ABC} = {5ED2BD81-0851-4190-98E5-59B1FF1EF855}
 		{53D9D5C7-E690-458A-8E20-18A8B3782FAD} = {2272F3AD-71A9-4614-8621-888F08CF2432}
 		{100CD788-C2E2-4A39-A294-ABC55F4A18E9} = {53D9D5C7-E690-458A-8E20-18A8B3782FAD}
@@ -165,6 +170,8 @@ Global
 		{0F73AD99-A5F9-4DAE-BA11-440E8B2C590B} = {3ED6FA95-8B1D-40E0-8653-B67FA0DDF041}
 		{C3E7B812-A50A-4190-BBCC-80927332102F} = {3ED6FA95-8B1D-40E0-8653-B67FA0DDF041}
 		{70D126D8-F6B9-4529-8573-1B1AAF5C849B} = {0450F3A4-A6E6-4AF9-B776-BD99700466BC}
+		{BB75ABB4-16DB-47A6-B48A-CBCB6CFCA71E} = {3ED6FA95-8B1D-40E0-8653-B67FA0DDF041}
+		{688BDAA9-C7D3-45CB-847C-49EFD19277F3} = {5ED2BD81-0851-4190-98E5-59B1FF1EF855}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F608A0B5-A14F-4210-A15C-AFBEB5049E9F}
