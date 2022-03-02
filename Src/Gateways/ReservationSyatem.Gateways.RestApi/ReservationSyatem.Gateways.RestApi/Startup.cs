@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Autofac;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Newtonsoft.Json;
@@ -22,6 +23,7 @@ namespace ReservationSyatem.Gateways.RestApi
         public IServiceCollection Services { get; set; }
 
         private readonly ReservationsConfig _config;
+        private readonly OptionConfig _optionConfig;
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -50,6 +52,17 @@ namespace ReservationSyatem.Gateways.RestApi
             });
             Services = services;
         }
+        private void SetAuthority(IServiceCollection services)
+        {
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.Authority = _optionConfig.AuthorityUri;
+                    options.Audience = "reservationSyatem_api";
+                    options.RequireHttpsMetadata = false;
+                });
+        }
+
         public void ConfigureContainer(ContainerBuilder builder)
         {
             var generalBootstrapperModule = new GeneralBootstrapperModule(_config.ConnectionString);
@@ -67,11 +80,9 @@ namespace ReservationSyatem.Gateways.RestApi
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ReservationSyatem.Gateways.RestApi v1"));
             }
             app.UseHttpsRedirection();
-
+            app.UseAuthentication();
             app.UseRouting();
-
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
