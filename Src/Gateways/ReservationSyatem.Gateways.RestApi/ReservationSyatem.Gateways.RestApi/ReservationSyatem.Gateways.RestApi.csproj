@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\Infrastructure\ReservationSystem.Config\ReservationSystem.Config\ReservationSystem.Config.csproj" />
     <ProjectReference Include="..\..\..\Application\ReservationSystem.Application.Contracts\ReservationSystem.Application.Contracts.csproj" />
+    <ProjectReference Include="..\..\Reservations.Gateways.Subscriber\Reservations.Gateways.Subscriber.csproj" />
   </ItemGroup>
 
 </Project>

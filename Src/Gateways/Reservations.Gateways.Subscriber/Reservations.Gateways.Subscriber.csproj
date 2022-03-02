@@ -3,5 +3,40 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
-
+  <ItemGroup>
+  <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+  <PackageReference Include="AvajangWebsite.Domain.Contracts" Version="1.0.2" />
+  <PackageReference Include="BusinessParties.Domain.Contracts" Version="1.0.1" />
+  <PackageReference Include="Credit.Domain.Contracts" Version="1.0.0" />
+  <PackageReference Include="IdentityAccess.Domain.Contract" Version="1.0.0" />
+  <PackageReference Include="Inventory.Domain.Contract" Version="1.0.0" />
+  <PackageReference Include="microsoft.entityframeworkcore" Version="5.0.9" />
+  <PackageReference Include="microsoft.entityframeworkcore.design" Version="5.0.9">
+    <PrivateAssets>all</PrivateAssets>
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+  </PackageReference>
+  <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="5.0.9" />
+  <PackageReference Include="microsoft.entityframeworkcore.tools" Version="5.0.9">
+    <PrivateAssets>all</PrivateAssets>
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+  </PackageReference>
+  <PackageReference Include="microsoft.extensions.configuration" Version="5.0.0" />
+  <PackageReference Include="microsoft.extensions.configuration.json" Version="5.0.0" />
+  <PackageReference Include="nservicebus" Version="7.5.0" />
+  <PackageReference Include="NServiceBus.CustomChecks" Version="3.0.1" />
+  <PackageReference Include="nservicebus.Extensions.DependencyInjection" Version="1.0.1" />
+  <PackageReference Include="NServiceBus.Heartbeat" Version="3.0.1" />
+  <PackageReference Include="NServiceBus.Metrics" Version="3.0.0" />
+  <PackageReference Include="NServiceBus.Metrics.ServiceControl" Version="3.0.6" />
+  <PackageReference Include="NServiceBus.Newtonsoft.Json" Version="2.3.0" />
+  <PackageReference Include="nservicebus.rabbitmq" Version="6.1.0" />
+  <PackageReference Include="respect.application" Version="1.0.0" />
+  <PackageReference Include="respect.claims" Version="1.0.0" />
+  <PackageReference Include="Respect.Config.Autofac" Version="1.0.0" />
+  <PackageReference Include="respect.core" Version="1.0.1" />
+  <PackageReference Include="Sales.Domain.Contracts" Version="1.0.7" />
+</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Infrastructure\ReservationSystem.Config\ReservationSystem.Config\ReservationSystem.Config.csproj" />
+  </ItemGroup>
 </Project>
