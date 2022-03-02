@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -37,6 +37,6 @@
   <PackageReference Include="Sales.Domain.Contracts" Version="1.0.7" />
 </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Infrastructure\ReservationSystem.Config\ReservationSystem.Config\ReservationSystem.Config.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\ReservationSystem.Config\ReservationSystem.Config\ReservationSystem.Config.csproj" />
   </ItemGroup>
 </Project>

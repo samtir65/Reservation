@@ -10,10 +10,10 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Newtonsoft.Json;
+using Reservations.Gateways.Subscriber;
 using ReservationSyatem.Gateways.RestApi.Controllers.Reservations;
 using ReservationSystem.Config;
 using Respect.Config.Autofac;
-using Notifications.Gateways.Subscriber;
 
 namespace ReservationSyatem.Gateways.RestApi
 {

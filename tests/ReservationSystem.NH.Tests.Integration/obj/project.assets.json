@@ -1960,20 +1960,6 @@
         "runtime": {
           "bin/placeholder/ReservationSystem.Domain.TestsUtils.dll": {}
         }
-      },
-      "ReservationSystem.Persistence.NH/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "NHibernate": "5.3.11",
-          "ReservationSystem.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ReservationSystem.Persistence.NH.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ReservationSystem.Persistence.NH.dll": {}
-        }
       }
     }
   },
@@ -6702,11 +6688,6 @@
       "type": "project",
       "path": "../Utils/ReservationSystem.Domain.TestsUtils/ReservationSystem.Domain.TestsUtils.csproj",
       "msbuildProject": "../Utils/ReservationSystem.Domain.TestsUtils/ReservationSystem.Domain.TestsUtils.csproj"
-    },
-    "ReservationSystem.Persistence.NH/1.0.0": {
-      "type": "project",
-      "path": "../../Src/Infrastructure/ReservationSystem.Persistence.NH/ReservationSystem.Persistence.NH.csproj",
-      "msbuildProject": "../../Src/Infrastructure/ReservationSystem.Persistence.NH/ReservationSystem.Persistence.NH.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6716,7 +6697,6 @@
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "NHibernate >= 5.3.11",
       "ReservationSystem.Domain.TestsUtils >= 1.0.0",
-      "ReservationSystem.Persistence.NH >= 1.0.0",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -6756,9 +6736,6 @@
           "projectReferences": {
             "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Test\\Framework.Test.csproj": {
               "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Test\\Framework.Test.csproj"
-            },
-            "D:\\samira\\ReservationSystem\\Src\\Infrastructure\\ReservationSystem.Persistence.NH\\ReservationSystem.Persistence.NH.csproj": {
-              "projectPath": "D:\\samira\\ReservationSystem\\Src\\Infrastructure\\ReservationSystem.Persistence.NH\\ReservationSystem.Persistence.NH.csproj"
             },
             "D:\\samira\\ReservationSystem\\tests\\Utils\\ReservationSystem.Domain.TestsUtils\\ReservationSystem.Domain.TestsUtils.csproj": {
               "projectPath": "D:\\samira\\ReservationSystem\\tests\\Utils\\ReservationSystem.Domain.TestsUtils\\ReservationSystem.Domain.TestsUtils.csproj"

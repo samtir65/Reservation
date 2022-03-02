@@ -9,13 +9,13 @@ using ReservationSystem.Config;
 using Respect.Config.Autofac;
 using Respect.Core.Events;
 
-namespace Notifications.Gateways.Subscriber
+namespace Reservations.Gateways.Subscriber
 {
     public static class EndpointConfig
     {
         public static IEndpointInstance Config(GeneralBootstrapperModule generalBootstrapperModule, BootstrapperReservationsModule bootstrapperSalesModule, IServiceCollection services)
         {
-            var endpointConfiguration = new EndpointConfiguration("Notifications.Subscriber");
+            var endpointConfiguration = new EndpointConfiguration("Reservations.Subscriber");
 
             endpointConfiguration.LimitMessageProcessingConcurrencyTo(1);
             var settings = new JsonSerializerSettings { ContractResolver = new PrivateSetterContractResolver() };
@@ -32,7 +32,7 @@ namespace Notifications.Gateways.Subscriber
             metrics.SendMetricDataToServiceControl(
                 serviceControlMetricsAddress: "Particular.Monitoring",
                 interval: TimeSpan.FromSeconds(10),
-                instanceId: "Notifications.Subscriber");
+                instanceId: "Reservations.Subscriber");
             metrics.SetServiceControlMetricsMessageTTBR(TimeSpan.FromHours(1));
 
             var transport = ConfigTransport(endpointConfiguration);
