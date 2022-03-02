@@ -9,6 +9,7 @@ using Autofac;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.AspNetCore.Server.IISIntegration;
 using Newtonsoft.Json;
 using Reservations.Gateways.Subscriber;
 using ReservationSyatem.Gateways.RestApi.Controllers.Reservations;
@@ -61,6 +62,8 @@ namespace ReservationSyatem.Gateways.RestApi
                     options.Audience = "reservationSyatem_api";
                     options.RequireHttpsMetadata = false;
                 });
+            services.AddAuthentication(IISDefaults.AuthenticationScheme);
+
         }
 
         public void ConfigureContainer(ContainerBuilder builder)
