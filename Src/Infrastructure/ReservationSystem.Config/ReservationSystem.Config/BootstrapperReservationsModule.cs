@@ -95,8 +95,8 @@ namespace ReservationSystem.Config
             builder.RegisterAssemblyTypes(typeof(ReservationFacade).Assembly)
            .As(type => type.GetInterfaces().Where(interfaceType => interfaceType == typeof(IApplicationService)))
            .AsImplementedInterfaces().InstancePerLifetimeScope();
-            
-           // builder.RegisterAssemblyTypes(typeof(ImmediateQueryFacade).Assembly)
+
+            // builder.RegisterAssemblyTypes(typeof(ImmediateQueryFacade).Assembly)
            //.As(type => type.GetInterfaces().Where(interfaceType => interfaceType == typeof(IApplicationService)))
            //.AsImplementedInterfaces().InstancePerLifetimeScope();
 

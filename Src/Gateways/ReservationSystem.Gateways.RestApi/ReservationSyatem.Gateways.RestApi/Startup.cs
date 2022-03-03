@@ -9,14 +9,13 @@ using Autofac;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
-using Microsoft.AspNetCore.Server.IISIntegration;
 using Newtonsoft.Json;
 using Reservations.Gateways.Subscriber;
-using ReservationSyatem.Gateways.RestApi.Controllers.Reservations;
 using ReservationSystem.Config;
+using ReservationSystem.Gateways.RestApi.Controllers.Reservations;
 using Respect.Config.Autofac;
 
-namespace ReservationSyatem.Gateways.RestApi
+namespace ReservationSystem.Gateways.RestApi
 {
     public class Startup
     {
@@ -29,13 +28,13 @@ namespace ReservationSyatem.Gateways.RestApi
         {
             Configuration = configuration;
             _config = Configuration.GetSection("ReservationsConfig").Get<ReservationsConfig>();
+            _optionConfig = Configuration.GetSection("OptionConfig").Get<OptionConfig>();
         }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
-            services.AddControllers();
+            SetAuthority(services);
             services.AddMvc(
                     options =>
                     {
@@ -45,11 +44,11 @@ namespace ReservationSyatem.Gateways.RestApi
                         options.Filters.Add(new AuthorizeFilter(policy));
                     }
                 ).AddNewtonsoftJson(x => x.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore)
-                .AddApplicationPart(typeof(ReservationController).Assembly)
+                .AddApplicationPart(typeof(ReservationsController).Assembly)
                 .SetCompatibilityVersion(CompatibilityVersion.Latest);
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ReservationSyatem.Gateways.RestApi", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "ReservationSystem.Gateways.RestApi", Version = "v1" });
             });
             Services = services;
         }
@@ -59,11 +58,9 @@ namespace ReservationSyatem.Gateways.RestApi
                 .AddJwtBearer(options =>
                 {
                     options.Authority = _optionConfig.AuthorityUri;
-                    options.Audience = "reservationSyatem_api";
+                    options.Audience = "reservationSystem_api";
                     options.RequireHttpsMetadata = false;
                 });
-            services.AddAuthentication(IISDefaults.AuthenticationScheme);
-
         }
 
         public void ConfigureContainer(ContainerBuilder builder)
@@ -80,7 +77,7 @@ namespace ReservationSyatem.Gateways.RestApi
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ReservationSyatem.Gateways.RestApi v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ReservationSystem.Gateways.RestApi v1"));
             }
             app.UseHttpsRedirection();
             app.UseAuthentication();

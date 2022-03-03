@@ -4,6 +4,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
+using ReservationSystem.Gateways.RestApi;
 
 namespace ReservationSyatem.Gateways.RestApi
 {
