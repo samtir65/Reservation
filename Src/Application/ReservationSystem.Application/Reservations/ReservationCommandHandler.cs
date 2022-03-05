@@ -8,19 +8,23 @@ namespace ReservationSystem.Application.Reservations
 {
     public class ReservationCommandHandler : ICommandHandler<CreateReservationsCommand>
     {
+        private readonly IEventPublisher _eventPublisher;
+        private readonly IClaimHelper _claimHelper;
         private readonly IReservationRepository _reservationRepository;
         private readonly IClock _clock;
-        public ReservationCommandHandler(IReservationRepository reservationRepository,IClock clock)
+        public ReservationCommandHandler(IReservationRepository reservationRepository,IClock clock,IEventPublisher eventPublisher,IClaimHelper claimHelper)
         {
             _reservationRepository = reservationRepository;
             _clock = clock;
+            _claimHelper = claimHelper;
+            _eventPublisher = eventPublisher;
 
         }
         public void Handle(CreateReservationsCommand command)
         {
             var id = _reservationRepository.GetNextId();
             var reservation = Factory.CreateReservation(id,_clock, command.CustomerId, command.ServiceId,
-                command.PersonelId);
+                command.PersonelId,);
             _reservationRepository.Create(reservation);
         }
     }

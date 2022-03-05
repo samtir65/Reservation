@@ -1,6 +1,7 @@
 ﻿using Framework.Core.Clock;
 using Framework.Domain;
 using System;
+using Framework.Application;
 
 namespace ReservationSystem.Domain.Models.Reservations
 {
@@ -11,7 +12,7 @@ namespace ReservationSystem.Domain.Models.Reservations
         public long ServiceId { get; private set; }
         public long PersonelId { get; private set; }
 
-        public Reservation(ReservationId id, IClock createOn, long customerId,long serviceId,long personelId) : base(id)
+        public Reservation(ReservationId id, IClock createOn, long customerId,long serviceId,long personelId, IClaimHelper claimHelper, IEventPublisher eventPublisher) : base(id, eventPublisher, claimHelper.GetUserId())
         {
             CreateOn = createOn.Now();
             CustomerId = customerId;
