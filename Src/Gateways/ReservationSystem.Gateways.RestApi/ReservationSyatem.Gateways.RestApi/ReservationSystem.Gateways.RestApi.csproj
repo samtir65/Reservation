@@ -9,7 +9,6 @@
     <PackageReference Include="identityserver4.accesstokenvalidation" Version="3.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
-    <PackageReference Include="Respect.Config.Autofac" Version="1.0.0" />
     <PackageReference Include="Slack.Webhooks" Version="1.1.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.1" />
     <PackageReference Include="Serilog.AspNetCore" Version="2.1.1" />
@@ -19,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Application\ReservationSystem.Application.Contracts\ReservationSystem.Application.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\Framework\Framework.Config.Autofac\Framework.Config.Autofac.csproj" />
     <ProjectReference Include="..\..\Reservations.Gateways.Subscriber\Reservations.Gateways.Subscriber.csproj" />
   </ItemGroup>
 

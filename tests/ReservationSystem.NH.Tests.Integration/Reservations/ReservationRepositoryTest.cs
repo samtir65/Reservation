@@ -1,7 +1,5 @@
 ﻿using System;
 using FluentAssertions;
-using FluentAssertions.Common;
-using Framework.Core.Clock;
 using Framework.Test.ClockStubs;
 using NHibernate;
 using ReservationSystem.Domain.Models.Reservations;

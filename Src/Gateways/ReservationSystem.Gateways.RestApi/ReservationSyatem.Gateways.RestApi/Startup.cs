@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Autofac;
+using Framework.Config.Autofac;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
@@ -13,7 +14,6 @@ using Newtonsoft.Json;
 using Reservations.Gateways.Subscriber;
 using ReservationSystem.Config;
 using ReservationSystem.Gateways.RestApi.Controllers.Reservations;
-using Respect.Config.Autofac;
 
 namespace ReservationSystem.Gateways.RestApi
 {

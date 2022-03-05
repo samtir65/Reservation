@@ -25,7 +25,7 @@ namespace ReservationSystem.Persistence.NH.Repository.Reservations
         }
         public ReservationId GetNextId()
         {
-            var idValue = _session.GetNextSequence("sequenceReservation");
+            var idValue = _session.GetNextSequence("SequenceReservation");
             return new ReservationId(idValue);
         }
     }

@@ -252,3 +252,8 @@ D:\samira\ReservationSystem\tests\Utils\ReservationSystem.Domain.TestsUtils\obj\
 D:\samira\ReservationSystem\tests\Utils\ReservationSystem.Domain.TestsUtils\obj\Debug\net5.0\ref\ReservationSystem.Domain.TestsUtils.dll
 D:\samira\ReservationSystem\tests\Utils\ReservationSystem.Domain.TestsUtils\obj\Debug\net5.0\ReservationSystem.Domain.TestsUtils.pdb
 D:\samira\ReservationSystem\tests\Utils\ReservationSystem.Domain.TestsUtils\obj\Debug\net5.0\ReservationSystem.Domain.TestsUtils.genruntimeconfig.cache
+D:\samira\ReservationSystem\tests\Utils\ReservationSystem.Domain.TestsUtils\bin\Debug\net5.0\Autofac.dll
+D:\samira\ReservationSystem\tests\Utils\ReservationSystem.Domain.TestsUtils\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\samira\ReservationSystem\tests\Utils\ReservationSystem.Domain.TestsUtils\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\samira\ReservationSystem\tests\Utils\ReservationSystem.Domain.TestsUtils\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\samira\ReservationSystem\tests\Utils\ReservationSystem.Domain.TestsUtils\bin\Debug\net5.0\IdentityModel.dll

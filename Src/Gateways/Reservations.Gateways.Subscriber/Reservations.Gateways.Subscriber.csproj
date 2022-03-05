@@ -30,13 +30,10 @@
   <PackageReference Include="NServiceBus.Metrics.ServiceControl" Version="3.0.6" />
   <PackageReference Include="NServiceBus.Newtonsoft.Json" Version="2.3.0" />
   <PackageReference Include="nservicebus.rabbitmq" Version="6.1.0" />
-  <PackageReference Include="respect.application" Version="1.0.0" />
-  <PackageReference Include="respect.claims" Version="1.0.0" />
-  <PackageReference Include="Respect.Config.Autofac" Version="1.0.0" />
-  <PackageReference Include="respect.core" Version="1.0.1" />
   <PackageReference Include="Sales.Domain.Contracts" Version="1.0.7" />
 </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Framework\Framework.Config.Autofac\Framework.Config.Autofac.csproj" />
     <ProjectReference Include="..\..\Infrastructure\ReservationSystem.Config\ReservationSystem.Config\ReservationSystem.Config.csproj" />
   </ItemGroup>
 </Project>

@@ -105,6 +105,24 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -151,7 +169,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Application\\Framework.Application.csproj": {
+                "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Application\\Framework.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

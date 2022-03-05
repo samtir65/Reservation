@@ -59,6 +59,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Persisten
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservationSystem.Gateways.RestApi", "Src\Gateways\ReservationSystem.Gateways.RestApi\ReservationSyatem.Gateways.RestApi\ReservationSystem.Gateways.RestApi.csproj", "{6B30A94A-8043-4751-AB6F-EDD2C387F41C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Config.Autofac", "Src\Framework\Framework.Config.Autofac\Framework.Config.Autofac.csproj", "{95D68D73-83F6-4530-AA3A-E8E4A8EF37E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{6B30A94A-8043-4751-AB6F-EDD2C387F41C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B30A94A-8043-4751-AB6F-EDD2C387F41C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B30A94A-8043-4751-AB6F-EDD2C387F41C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D68D73-83F6-4530-AA3A-E8E4A8EF37E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D68D73-83F6-4530-AA3A-E8E4A8EF37E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D68D73-83F6-4530-AA3A-E8E4A8EF37E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D68D73-83F6-4530-AA3A-E8E4A8EF37E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -172,6 +178,7 @@ Global
 		{359DD42B-6442-4898-9F90-4E754D2DD25F} = {C0AE5763-1570-4180-B61E-0159A1D24063}
 		{27522335-964F-4055-ADBA-0470C7344E2E} = {C0AE5763-1570-4180-B61E-0159A1D24063}
 		{6B30A94A-8043-4751-AB6F-EDD2C387F41C} = {3ED6FA95-8B1D-40E0-8653-B67FA0DDF041}
+		{95D68D73-83F6-4530-AA3A-E8E4A8EF37E2} = {32B86040-FD6A-4745-B60A-E26A9888EE0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F608A0B5-A14F-4210-A15C-AFBEB5049E9F}

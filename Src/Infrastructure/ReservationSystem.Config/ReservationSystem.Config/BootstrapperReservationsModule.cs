@@ -2,6 +2,9 @@
 using System.Linq;
 using Autofac;
 using Autofac.Core;
+using Framework.Application;
+using Framework.Core;
+using Framework.NH;
 using NHibernate;
 using NHibernate.Engine;
 using NHibernate.Type;
@@ -9,9 +12,6 @@ using Reservations.Gateway.Facade;
 using ReservationSystem.Application.Reservations;
 using ReservationSystem.Persistence.NH.Mapping.Reservations;
 using ReservationSystem.Persistence.NH.Repository.Reservations;
-using Respect.Application;
-using Respect.Domain;
-using Respect.NH;
 
 namespace ReservationSystem.Config
 {

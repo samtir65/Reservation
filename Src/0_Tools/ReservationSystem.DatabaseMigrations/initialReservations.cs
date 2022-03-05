@@ -13,6 +13,8 @@ namespace ReservationSystem.DatabaseMigrations
                 .WithColumn("CustomerId").AsInt64().NotNullable()
                 .WithColumn("ServiceId").AsInt64().NotNullable()
                 .WithColumn("PersonelId").AsInt64().NotNullable();
+
+            Create.Sequence("SequenceReservation").Cache(20).IncrementBy(1).StartWith(1);
         }
     }
 }

@@ -1,13 +1,13 @@
 ﻿using System;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using Framework.Config.Autofac;
+using Framework.Domain;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 using NServiceBus;
 using Reservations.Gateways.Subscriber.JsonNet.PrivateSettersContractResolvers;
 using ReservationSystem.Config;
-using Respect.Config.Autofac;
-using Respect.Core.Events;
 
 namespace Reservations.Gateways.Subscriber
 {

@@ -23,5 +23,6 @@ namespace Reservations.Gateway.Facade
             _commandBus.Dispatch(command);
             return id;
         }
+
     }
 }
