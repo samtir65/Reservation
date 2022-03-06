@@ -273,3 +273,5 @@ D:\samira\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Deb
 D:\samira\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
 D:\samira\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 D:\samira\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Debug\net5.0\IdentityModel.dll
+D:\samira\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Debug\net5.0\ReservationSystem.Domailn.Contract.dll
+D:\samira\ReservationSystem\tests\ReservationSystem.NH.Tests.Integration\bin\Debug\net5.0\ReservationSystem.Domailn.Contract.pdb

@@ -15,6 +15,7 @@ using NHibernate.Cfg.MappingSchema;
 using NHibernate.Dialect;
 using NHibernate.Driver;
 using NHibernate.Engine;
+using NHibernate.Event;
 using NHibernate.Mapping.ByCode;
 using NHibernate.Mapping.ByCode.Impl;
 
@@ -50,7 +51,18 @@ namespace Framework.NH
             modelMapper.AddMappings((IEnumerable<Type>)mappingAssembly.GetExportedTypes());
             HbmMapping mappingDocument = modelMapper.CompileMappingForAllExplicitlyAddedEntities();
             configuration.AddDeserializedMapping(mappingDocument, sessionName);
+            AddDomainEventListeners(configuration);
             return configuration.BuildSessionFactory();
+
+        }
+        private static void AddDomainEventListeners(Configuration configuration)
+        {
+            var listener = new DomainEventListener();
+            configuration.SetListeners(ListenerType.PreUpdate, new[] { listener });
+            configuration.SetListeners(ListenerType.PreInsert, new[] { listener });
+            configuration.SetListeners(ListenerType.PreCollectionRecreate, new[] { listener });
+            configuration.SetListeners(ListenerType.PreCollectionUpdate, new[] { listener });
+
         }
     }
 }

@@ -1,4 +1,9 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0bef6a7d_002Dc5f5_002D4af0_002Dba23_002D5ea1a941ade0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReservationRepositoryTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::01D35E0A-8077-47D3-BB28-AEC81E6D77D4::.NETCoreApp,Version=v5.0::ReservationSystem.NH.Tests.Integration.Reservations.ReservationRepositoryTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9a2589c5_002Dc5ea_002D4646_002D99e4_002Ddb10a306422d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="register_reservation" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::01D35E0A-8077-47D3-BB28-AEC81E6D77D4::.NETCoreApp,Version=v5.0::ReservationSystem.NH.Tests.Integration.Reservations.ReservationRepositoryTest&lt;/TestId&gt;&#xD;
@@ -13,5 +18,10 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d020caff_002D16ba_002D43db_002Dbed1_002Dc438497fd97b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="register_reservation #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::01D35E0A-8077-47D3-BB28-AEC81E6D77D4::.NETCoreApp,Version=v5.0::ReservationSystem.NH.Tests.Integration.Reservations.ReservationRepositoryTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d0bad9da_002D11e5_002D476c_002Dab51_002Dfc861f1e234e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="register_reservation #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::01D35E0A-8077-47D3-BB28-AEC81E6D77D4::net5.0::ReservationSystem.NH.Tests.Integration.Reservations.ReservationRepositoryTest.register_reservation&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

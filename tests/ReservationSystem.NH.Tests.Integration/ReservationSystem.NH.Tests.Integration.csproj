@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Src\Framework\Framework.NH\Framework.NH.csproj" />
     <ProjectReference Include="..\..\Src\Framework\Framework.Test\Framework.Test.csproj" />
     <ProjectReference Include="..\..\Src\Infrastructure\ReservationSystem.Persistence.NH\ReservationSystem.Persistence.NH.csproj" />
     <ProjectReference Include="..\Utils\ReservationSystem.Domain.TestsUtils\ReservationSystem.Domain.TestsUtils.csproj" />

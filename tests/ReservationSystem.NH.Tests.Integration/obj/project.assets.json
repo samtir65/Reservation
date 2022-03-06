@@ -1981,8 +1981,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Framework.Core": "1.0.0",
-          "Framework.NH": "1.0.0"
+          "Framework.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Framework.Domain.dll": {}
@@ -1996,6 +1995,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Framework.Application": "1.0.0",
+          "Framework.Domain": "1.0.0",
           "NHibernate": "5.3.11",
           "Newtonsoft.Json": "13.0.1",
           "System.Data.SqlClient": "4.8.3"
@@ -2020,11 +2020,25 @@
           "bin/placeholder/Framework.Test.dll": {}
         }
       },
-      "ReservationSystem.Domain/1.0.0": {
+      "ReservationSystem.Domailn.Contract/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Framework.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReservationSystem.Domailn.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReservationSystem.Domailn.Contract.dll": {}
+        }
+      },
+      "ReservationSystem.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Framework.Domain": "1.0.0",
+          "ReservationSystem.Domailn.Contract": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ReservationSystem.Domain.dll": {}
@@ -2053,6 +2067,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Framework.NH": "1.0.0",
           "NHibernate": "5.3.11",
           "ReservationSystem.Domain": "1.0.0"
         },
@@ -6943,6 +6958,11 @@
       "path": "../../Src/Framework/Framework.Test/Framework.Test.csproj",
       "msbuildProject": "../../Src/Framework/Framework.Test/Framework.Test.csproj"
     },
+    "ReservationSystem.Domailn.Contract/1.0.0": {
+      "type": "project",
+      "path": "../../Src/Domain/ReservationSystem.Domailn.Contract/ReservationSystem.Domailn.Contract.csproj",
+      "msbuildProject": "../../Src/Domain/ReservationSystem.Domailn.Contract/ReservationSystem.Domailn.Contract.csproj"
+    },
     "ReservationSystem.Domain/1.0.0": {
       "type": "project",
       "path": "../../Src/Domain/ReservationSystem.Domain/ReservationSystem.Domain.csproj",
@@ -6962,6 +6982,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "FluentAssertions >= 6.5.1",
+      "Framework.NH >= 1.0.0",
       "Framework.Test >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "NHibernate >= 5.3.11",
@@ -7004,6 +7025,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.NH\\Framework.NH.csproj": {
+              "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.NH\\Framework.NH.csproj"
+            },
             "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Test\\Framework.Test.csproj": {
               "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Test\\Framework.Test.csproj"
             },

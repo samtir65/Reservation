@@ -1,4 +1,5 @@
 ﻿using Framework.Application;
+using Framework.Core;
 using Framework.Core.Clock;
 
 namespace ReservationSystem.Domain.Models.Reservations.Factories
@@ -8,7 +9,7 @@ namespace ReservationSystem.Domain.Models.Reservations.Factories
         public static Reservation CreateReservation(ReservationId id, IClock createOn, long customerId, long serviceId,
             long personelId, IClaimHelper claimHelper, IEventPublisher eventPublisher)
         {
-            return new Reservation(id, createOn, customerId, serviceId, personelId);
+            return new Reservation(id, createOn, customerId, serviceId, personelId,claimHelper,eventPublisher);
         }
     }
 }

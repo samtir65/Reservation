@@ -1,4 +1,5 @@
 ﻿using Framework.Application;
+using Framework.Core;
 using Framework.Core.Clock;
 using ReservationSystem.Application.Contracts.Reservations.Commands;
 using ReservationSystem.Domain.Models.Reservations;
@@ -24,7 +25,7 @@ namespace ReservationSystem.Application.Reservations
         {
             var id = _reservationRepository.GetNextId();
             var reservation = Factory.CreateReservation(id,_clock, command.CustomerId, command.ServiceId,
-                command.PersonelId,);
+                command.PersonelId,_claimHelper,_eventPublisher);
             _reservationRepository.Create(reservation);
         }
     }

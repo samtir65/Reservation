@@ -2,6 +2,8 @@
 using Framework.Domain;
 using System;
 using Framework.Application;
+using Framework.Core;
+using ReservationSystem.Domailn.Contract.Events.Notifications;
 
 namespace ReservationSystem.Domain.Models.Reservations
 {
@@ -10,14 +12,16 @@ namespace ReservationSystem.Domain.Models.Reservations
         public DateTime CreateOn { get; private set; }
         public long CustomerId { get; private set; }
         public long ServiceId { get; private set; }
-        public long PersonelId { get; private set; }
+        public long PersonnelId { get; private set; }
 
-        public Reservation(ReservationId id, IClock createOn, long customerId,long serviceId,long personelId, IClaimHelper claimHelper, IEventPublisher eventPublisher) : base(id, eventPublisher, claimHelper.GetUserId())
+        public Reservation(ReservationId id, IClock createOn, long customerId,long serviceId,long personnelId, IClaimHelper claimHelper, IEventPublisher eventPublisher) 
+            : base(id, eventPublisher, claimHelper.GetUserId())
         {
             CreateOn = createOn.Now();
             CustomerId = customerId;
             ServiceId = serviceId;
-            PersonelId = personelId;
+            PersonnelId = personnelId;
+            Publish(new ReservationCreated(id.DbId,CreateOn,CustomerId,ServiceId,PersonnelId,claimHelper.GetUserId(),claimHelper.GetUserName()));
         }
 
         protected Reservation(){}

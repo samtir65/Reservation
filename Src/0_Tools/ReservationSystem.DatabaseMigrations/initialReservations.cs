@@ -9,10 +9,11 @@ namespace ReservationSystem.DatabaseMigrations
         {
             Create.Table("Reservations")
                 .WithColumn("Id").AsInt64().PrimaryKey().NotNullable()
-                .WithColumn("CreateOn").AsDateTime().NotNullable()
+                .WithColumn("CreateOn").AsDateTime2().NotNullable()
                 .WithColumn("CustomerId").AsInt64().NotNullable()
                 .WithColumn("ServiceId").AsInt64().NotNullable()
-                .WithColumn("PersonelId").AsInt64().NotNullable();
+                .WithColumn("personnelId").AsInt64().NotNullable()
+                .WithColumn("CreatorUserId").AsInt64().NotNullable();
 
             Create.Sequence("SequenceReservation").Cache(20).IncrementBy(1).StartWith(1);
         }

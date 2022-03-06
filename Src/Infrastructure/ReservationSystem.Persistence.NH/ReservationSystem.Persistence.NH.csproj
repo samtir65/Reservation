@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Domain\ReservationSystem.Domain\ReservationSystem.Domain.csproj" />
+    <ProjectReference Include="..\..\Framework\Framework.NH\Framework.NH.csproj" />
   </ItemGroup>
 
 </Project>

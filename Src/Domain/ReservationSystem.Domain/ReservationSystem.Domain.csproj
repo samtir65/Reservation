@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Framework\Framework.Domain\Framework.Domain.csproj" />
+    <ProjectReference Include="..\ReservationSystem.Domailn.Contract\ReservationSystem.Domailn.Contract.csproj" />
   </ItemGroup>
 
 </Project>

@@ -14,8 +14,9 @@ namespace ReservationSystem.Domailn.Contract.Events.Notifications
         public long ActionUserId { get; set; }
         public string UserName { get; set; }
 
-        protected ReservationCreated(DateTime createOn, long customerId, long serviceId, long personelId, long actionUserId, string userName)
+        public ReservationCreated(long id,DateTime createOn, long customerId, long serviceId, long personelId, long actionUserId, string userName)
         {
+            Id = id;
             CreateOn = createOn;
             CustomerId = customerId;
             ServiceId = serviceId;
