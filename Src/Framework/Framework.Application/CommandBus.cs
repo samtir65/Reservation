@@ -17,6 +17,7 @@ namespace Framework.Application
             this._lifetimeScope = lifetimeScope;
         }
 
+
         public void Dispatch<T>(T command)
         {
             this._lifetimeScope.Resolve<ICommandHandler<T>>().Handle(command);

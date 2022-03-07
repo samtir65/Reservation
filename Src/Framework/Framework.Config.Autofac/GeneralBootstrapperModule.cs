@@ -26,6 +26,8 @@ namespace Framework.Config.Autofac
             this.ConnectionString = connectionString;
         }
 
+
+
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<CommandBus>().As<ICommandBus>().InstancePerLifetimeScope().OnRelease<CommandBus, ConcreteReflectionActivatorData, SingleRegistrationStyle>((Action<CommandBus>)(x => { }));
