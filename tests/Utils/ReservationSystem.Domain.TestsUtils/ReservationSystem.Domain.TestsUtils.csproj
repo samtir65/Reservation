@@ -24,4 +24,8 @@
     <ProjectReference Include="..\..\..\Src\Framework\Framework.Test\Framework.Test.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Customers\" />
+  </ItemGroup>
+
 </Project>

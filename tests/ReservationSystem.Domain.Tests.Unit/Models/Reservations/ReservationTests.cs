@@ -2,7 +2,7 @@
 using ReservationSystem.Domain.TestsUtils.Models.Reservations;
 using Xunit;
 
-namespace ReservationSystem.Domain.Tests.Unit.Models
+namespace ReservationSystem.Domain.Tests.Unit.Models.Reservations
 {
 
     public class ReservationTests
