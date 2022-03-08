@@ -8,7 +8,10 @@ using Framework.NH;
 using NHibernate;
 using NHibernate.Engine;
 using NHibernate.Type;
+using Reservation.Query.NH.Mapping.Reservations;
+using Reservation.Query.NH.Repositories;
 using Reservations.Gateway.Facade;
+using Reservations.Gateway.Facade.Query;
 using ReservationSystem.Application.Reservations;
 using ReservationSystem.Persistence.NH.Mapping.Reservations;
 using ReservationSystem.Persistence.NH.Repository.Reservations;
@@ -32,18 +35,18 @@ namespace ReservationSystem.Config
             var isActiveFilterDef = new FilterDefinition("IsActiveFilter", null, new Dictionary<string, IType>
                 {{"isActiveParam", NHibernateUtil.Boolean}}, false);
 
-            //var querySessionFactory = SessionFactoryBuilder.CreateByConnectionString(_connectionString,
-            //   typeof(NotificationQueryMapping).Assembly, _sessionName, filterDef, isActiveFilterDef);
-            //builder.Register(x =>
-            //{
-            //    var session = querySessionFactory.OpenSession();
-            //    session.EnableFilter("Filter").SetParameter("isDeletedParam", false);
-            //    session.EnableFilter("IsActiveFilter").SetParameter("isActiveParam", true);
-            //    return session;
-            //})
-           //.As<ISession>()
-           //.Keyed<ISession>("Query")
-           //.InstancePerLifetimeScope();
+            var querySessionFactory = SessionFactoryBuilder.CreateByConnectionString(_connectionString,
+               typeof(ReservationQueryMapping).Assembly, _sessionName, filterDef, isActiveFilterDef);
+            builder.Register(x =>
+            {
+                var session = querySessionFactory.OpenSession();
+                session.EnableFilter("Filter").SetParameter("isDeletedParam", false);
+                session.EnableFilter("IsActiveFilter").SetParameter("isActiveParam", true);
+                return session;
+            })
+           .As<ISession>()
+           .Keyed<ISession>("Query")
+           .InstancePerLifetimeScope();
 
             var commandSessionFactory = SessionFactoryBuilder.CreateByConnectionString(_connectionString, typeof(ReservationMapping).Assembly, _sessionName, filterDef, isActiveFilterDef);
             builder.Register(a =>
@@ -61,13 +64,13 @@ namespace ReservationSystem.Config
 
                 });
 
-            //builder.RegisterAssemblyTypes(typeof(NotificationQueryRepository).Assembly)
-            //  .As(type => type.GetInterfaces().Where(interfaceType => interfaceType == typeof(IRepository)))
-            //  .WithParameter(new ResolvedParameter(
-            //      (pi, ctx) => pi.ParameterType == typeof(ISession),
-            //      (pi, ctx) => ctx.ResolveKeyed<ISession>("Query")))
-            //  .AsImplementedInterfaces()
-            //  .InstancePerLifetimeScope();
+            builder.RegisterAssemblyTypes(typeof(ReservationQueryRepository).Assembly)
+              .As(type => type.GetInterfaces().Where(interfaceType => interfaceType == typeof(IRepository)))
+              .WithParameter(new ResolvedParameter(
+                  (pi, ctx) => pi.ParameterType == typeof(ISession),
+                  (pi, ctx) => ctx.ResolveKeyed<ISession>("Query")))
+              .AsImplementedInterfaces()
+              .InstancePerLifetimeScope();
 
             builder.RegisterAssemblyTypes(typeof(ReservationRepository).Assembly)
            .WithParameter(new ResolvedParameter(
@@ -96,11 +99,11 @@ namespace ReservationSystem.Config
            .As(type => type.GetInterfaces().Where(interfaceType => interfaceType == typeof(IApplicationService)))
            .AsImplementedInterfaces().InstancePerLifetimeScope();
 
-            // builder.RegisterAssemblyTypes(typeof(ImmediateQueryFacade).Assembly)
-           //.As(type => type.GetInterfaces().Where(interfaceType => interfaceType == typeof(IApplicationService)))
-           //.AsImplementedInterfaces().InstancePerLifetimeScope();
+            builder.RegisterAssemblyTypes(typeof(ReservationQueryFacade).Assembly)
+          .As(type => type.GetInterfaces().Where(interfaceType => interfaceType == typeof(IApplicationService)))
+          .AsImplementedInterfaces().InstancePerLifetimeScope();
 
-           // builder.RegisterType<KavenegarAcl>().As<IKavenegarAcl>().InstancePerLifetimeScope();
+            // builder.RegisterType<KavenegarAcl>().As<IKavenegarAcl>().InstancePerLifetimeScope();
         }
     }
 }

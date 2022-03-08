@@ -1,6 +1,5 @@
 ﻿using Framework.Application;
 using Framework.Core;
-using Reservation.Query.Model;
 using Reservation.Query.Model.Reservations;
 
 namespace ReservationSystem.Application.Contracts.Reservations.QueryServices

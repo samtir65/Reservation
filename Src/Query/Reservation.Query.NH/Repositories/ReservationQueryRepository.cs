@@ -2,11 +2,10 @@
 using Framework.Core;
 using NHibernate;
 using Reservation.Query.Model.Reservations;
-using ReservationSystem.Application.Contracts.Reservations.QueryServices;
 
 namespace Reservation.Query.NH.Repositories
 {
-    public class ReservationQueryRepository : IReservationQueryFacade
+    public class ReservationQueryRepository : IReservationQueryRepository
     {
         private ISession _session;
 

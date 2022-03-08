@@ -8,7 +8,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Application\ReservationSystem.Application\ReservationSystem.Application.csproj" />
+    <ProjectReference Include="..\..\..\Gateways\Reservations.Gateway.Facade.Query\Reservations.Gateway.Facade.Query.csproj" />
     <ProjectReference Include="..\..\..\Gateways\Reservations.Gateway.Facade\Reservations.Gateway.Facade.csproj" />
+    <ProjectReference Include="..\..\..\Query\Reservation.Query.NH\Reservation.Query.NH.csproj" />
     <ProjectReference Include="..\..\ReservationSystem.Persistence.NH\ReservationSystem.Persistence.NH.csproj" />
   </ItemGroup>
 </Project>
