@@ -12,6 +12,7 @@ namespace ReservationSystem.Domain.Tests.Unit.Models.Reservations
         {
             _reservationTestBuilder = new ReservationTestBuilder();
         }
+
         [Fact]
         public void construct_properly()
         {

@@ -2,7 +2,7 @@
 using Framework.NH;
 using ReservationSystem.Application.Contracts.Reservations.Commands;
 using ReservationSystem.Application.Contracts.Reservations.CommandServices;
-using ReservationSystem.Domailn.Contract.Events.Notifications;
+using ReservationSystem.Domailn.Contract.Events.Reservations;
 
 namespace Reservations.Gateway.Facade
 {

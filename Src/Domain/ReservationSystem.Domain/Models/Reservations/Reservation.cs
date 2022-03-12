@@ -3,7 +3,7 @@ using Framework.Domain;
 using System;
 using Framework.Application;
 using Framework.Core;
-using ReservationSystem.Domailn.Contract.Events.Notifications;
+using ReservationSystem.Domailn.Contract.Events.Reservations;
 
 namespace ReservationSystem.Domain.Models.Reservations
 {
@@ -23,7 +23,6 @@ namespace ReservationSystem.Domain.Models.Reservations
             PersonnelId = personnelId;
             Publish(new ReservationCreated(id.DbId,CreateOn,CustomerId,ServiceId,PersonnelId,claimHelper.GetUserId(),claimHelper.GetUserName()));
         }
-
         protected Reservation(){}
     }
 }

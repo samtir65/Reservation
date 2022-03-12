@@ -1,4 +1,5 @@
-﻿using ReservationSystem.Domain.TestsUtils.Models.Customers;
+﻿using FluentAssertions;
+using ReservationSystem.Domain.TestsUtils.Models.Customers;
 using Xunit;
 
 namespace ReservationSystem.Domain.Tests.Unit.Models.Customers
@@ -15,7 +16,11 @@ namespace ReservationSystem.Domain.Tests.Unit.Models.Customers
         [Fact]
         public void construct_properly()
         {
-            var custumer = _customerTestBuilder.build();
+            var customer = _customerTestBuilder.Build();
+            customer.Id.Should().Be(_customerTestBuilder.Id);
+            customer.FirstName.Should().Be(_customerTestBuilder.FirstName);
+            customer.LastName.Should().Be(_customerTestBuilder.LastName);
+            customer.CustomerPhones.Should().BeEquivalentTo(_customerTestBuilder.Phones);
         }
     }
 }

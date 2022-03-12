@@ -1,9 +1,3 @@
 ﻿<ProjectConfiguration>
-  <Settings>
-    <IgnoredTests>
-      <NamedTestSelector>
-        <TestName>ReservationSystem.NH.Tests.Integration.Reservations.ReservationRepositoryTest.register_reservation</TestName>
-      </NamedTestSelector>
-    </IgnoredTests>
-  </Settings>
+  <Settings />
 </ProjectConfiguration>

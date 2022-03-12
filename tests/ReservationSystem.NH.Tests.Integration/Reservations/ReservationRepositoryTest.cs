@@ -29,7 +29,6 @@ namespace ReservationSystem.NH.Tests.Integration.Reservations
             _reservationRepository.Create(reservation);
             Session.GetCurrentTransaction().Commit();
             Session.Clear();
-
             var expectedReservationSystem = _reservationRepository.GetBy(reservation.Id);
             expectedReservationSystem.Should().BeEquivalentTo(reservation);
 

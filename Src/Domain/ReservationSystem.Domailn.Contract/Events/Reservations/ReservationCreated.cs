@@ -1,8 +1,8 @@
-﻿using Framework.Application;
+﻿using System;
+using Framework.Application;
 using Framework.Domain;
-using System;
 
-namespace ReservationSystem.Domailn.Contract.Events.Notifications
+namespace ReservationSystem.Domailn.Contract.Events.Reservations
 {
     public class ReservationCreated : DomainEvent, IUserInfo
     {

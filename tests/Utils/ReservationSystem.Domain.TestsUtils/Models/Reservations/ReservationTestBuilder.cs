@@ -24,6 +24,7 @@ namespace ReservationSystem.Domain.TestsUtils.Models.Reservations
             CreateOn = new ClockStub(DateTime.Now);
             CustomerId = GenerateRandom.Number();
             ServiceId = GenerateRandom.Number();
+            PersonelId = GenerateRandom.Number();
             ClaimHelper = new ClaimHelperStub();
             EventPublisher = new FakeEventPublisher();
         }

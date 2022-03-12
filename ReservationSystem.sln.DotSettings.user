@@ -22,6 +22,7 @@
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d0bad9da_002D11e5_002D476c_002Dab51_002Dfc861f1e234e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="register_reservation #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::01D35E0A-8077-47D3-BB28-AEC81E6D77D4::net5.0::ReservationSystem.NH.Tests.Integration.Reservations.ReservationRepositoryTest.register_reservation&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::01D35E0A-8077-47D3-BB28-AEC81E6D77D4::net5.0::ReservationSystem.NH.Tests.Integration.Reservations.ReservationRepositoryTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::01D35E0A-8077-47D3-BB28-AEC81E6D77D4::net5.0::ReservationSystem.NH.Tests.Integration.Customers.CustomerRepositoryTest.register_customer&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

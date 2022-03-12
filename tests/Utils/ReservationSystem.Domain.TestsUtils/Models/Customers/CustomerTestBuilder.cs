@@ -13,25 +13,26 @@ namespace ReservationSystem.Domain.TestsUtils.Models.Customers
     public class CustomerTestBuilder
     {
         public CustomerId Id { get;private set; }
-        public string Name { get;private set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
         public IClock CreateOn { get;private set; }
-        private List<CustomerPhone> Phones { get;set; }
-        public IClaimHelper ClaimHelper { get; set; }
+        public List<CustomerPhone> Phones { get;set; }
         public IEventPublisher EventPublisher { get; set; }
-
+        public IClaimHelper ClaimHelper { get; set; }
+        
         public CustomerTestBuilder()
         {
             Id = new CustomerId(GenerateRandom.Number()) ;
-            Name = GenerateRandom.String();
+            FirstName = GenerateRandom.String();
+            LastName = GenerateRandom.String();
             CreateOn = new ClockStub(DateTime.Now);
             Phones = new List<CustomerPhone>() { new CustomerPhoneTestBuilder().Build() };
-            ClaimHelper = new ClaimHelperStub();
             EventPublisher = new FakeEventPublisher();
+            ClaimHelper = new ClaimHelperStub();
         }
-
-        public Customer build()
+        public Customer Build()
         {
-            return new Customer(Id,EventPublisher,)
+            return new Customer(Id,FirstName,LastName,CreateOn,Phones,EventPublisher,ClaimHelper);
         }
     }
 }
