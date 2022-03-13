@@ -10,4 +10,8 @@
     <ProjectReference Include="..\ReservationSystem.Application.Contracts\ReservationSystem.Application.Contracts.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Customers\Mapper\" />
+  </ItemGroup>
+
 </Project>
