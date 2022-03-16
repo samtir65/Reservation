@@ -12,6 +12,7 @@ using Reservation.Query.NH.Mapping.Reservations;
 using Reservation.Query.NH.Repositories;
 using Reservations.Gateway.Facade;
 using Reservations.Gateway.Facade.Query;
+using Reservations.Gateway.Facade.Reservations;
 using ReservationSystem.Application.Reservations;
 using ReservationSystem.Persistence.NH.Mapping.Reservations;
 using ReservationSystem.Persistence.NH.Repository.Reservations;

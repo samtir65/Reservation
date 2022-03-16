@@ -29,7 +29,7 @@ namespace ReservationSystem.Application.Customers
             var id = _customerRepository.GetNextId();
             var customer = Factory.CreateCustomer(id,command.FirstName, command.LastName, _clock,phones, _eventPublisher,
                 _claimHelper);
-
+            _customerRepository.Create(customer);
         }
     }
 }
