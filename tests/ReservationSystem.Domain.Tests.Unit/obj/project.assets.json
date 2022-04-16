@@ -1754,25 +1754,11 @@
           "bin/placeholder/Framework.Test.dll": {}
         }
       },
-      "ReservationSystem.Domailn.Contract/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Framework.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ReservationSystem.Domailn.Contract.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ReservationSystem.Domailn.Contract.dll": {}
-        }
-      },
       "ReservationSystem.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Framework.Domain": "1.0.0",
-          "ReservationSystem.Domailn.Contract": "1.0.0"
+          "Framework.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ReservationSystem.Domain.dll": {}
@@ -6042,11 +6028,6 @@
       "type": "project",
       "path": "../../Src/Framework/Framework.Test/Framework.Test.csproj",
       "msbuildProject": "../../Src/Framework/Framework.Test/Framework.Test.csproj"
-    },
-    "ReservationSystem.Domailn.Contract/1.0.0": {
-      "type": "project",
-      "path": "../../Src/Domain/ReservationSystem.Domailn.Contract/ReservationSystem.Domailn.Contract.csproj",
-      "msbuildProject": "../../Src/Domain/ReservationSystem.Domailn.Contract/ReservationSystem.Domailn.Contract.csproj"
     },
     "ReservationSystem.Domain/1.0.0": {
       "type": "project",

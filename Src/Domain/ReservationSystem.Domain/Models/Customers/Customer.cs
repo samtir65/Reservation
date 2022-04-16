@@ -25,6 +25,7 @@ namespace ReservationSystem.Domain.Models.Customers
             LastName = lastName;
             CreateOn =  createOn.Now();
             _customerPhones = customerPhones;
+            Publish(new CustomerCreated())
         }
         protected Customer()
         {

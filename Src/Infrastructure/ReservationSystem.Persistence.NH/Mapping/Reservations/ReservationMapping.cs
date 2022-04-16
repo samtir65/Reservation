@@ -20,7 +20,6 @@ namespace ReservationSystem.Persistence.NH.Mapping.Reservations
             Property(x => x.ServiceId);
             Property(x => x.CreatorUserId);
            
-            
         }
         
     }

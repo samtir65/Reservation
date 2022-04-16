@@ -4,7 +4,7 @@ using Framework.Domain;
 
 namespace ReservationSystem.Domailn.Contract.Events.Reservations
 {
-    public class ReservationCreated : DomainEvent, IUserInfo
+    public class ReservationCreated : DomainEvent,IUserInfo
     {
         public long Id { get; private set; }
         public DateTime CreateOn { get; private set; }
