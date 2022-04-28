@@ -147,6 +147,19 @@
         "runtime": {
           "bin/placeholder/Framework.Domain.dll": {}
         }
+      },
+      "ReservationSystem.Domailn.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Framework.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReservationSystem.Domailn.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReservationSystem.Domailn.Contract.dll": {}
+        }
       }
     }
   },
@@ -374,11 +387,17 @@
       "type": "project",
       "path": "../../Framework/Framework.Domain/Framework.Domain.csproj",
       "msbuildProject": "../../Framework/Framework.Domain/Framework.Domain.csproj"
+    },
+    "ReservationSystem.Domailn.Contract/1.0.0": {
+      "type": "project",
+      "path": "../ReservationSystem.Domailn.Contract/ReservationSystem.Domailn.Contract.csproj",
+      "msbuildProject": "../ReservationSystem.Domailn.Contract/ReservationSystem.Domailn.Contract.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Framework.Domain >= 1.0.0"
+      "Framework.Domain >= 1.0.0",
+      "ReservationSystem.Domailn.Contract >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -413,6 +432,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domailn.Contract\\ReservationSystem.Domailn.Contract.csproj": {
+              "projectPath": "D:\\samira\\ReservationSystem\\Src\\Domain\\ReservationSystem.Domailn.Contract\\ReservationSystem.Domailn.Contract.csproj"
+            },
             "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Domain\\Framework.Domain.csproj": {
               "projectPath": "D:\\samira\\ReservationSystem\\Src\\Framework\\Framework.Domain\\Framework.Domain.csproj"
             }

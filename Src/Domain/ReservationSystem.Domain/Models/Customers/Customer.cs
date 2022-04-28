@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using Framework.Application;
 using Framework.Core.Clock;
 using Framework.Core;
+using ReservationSystem.Domailn.Contract.Events.Customers;
 
 namespace ReservationSystem.Domain.Models.Customers
 {
@@ -25,7 +26,17 @@ namespace ReservationSystem.Domain.Models.Customers
             LastName = lastName;
             CreateOn =  createOn.Now();
             _customerPhones = customerPhones;
-            Publish(new CustomerCreated())
+            Publish(new CustomerCreated(id.DbId,FirstName,LastName,CreateOn,_customerPhones,claimHelper.GetUserId,claimHelper.GetUserName));
+        }
+
+        protected List<CustomerPhoneEvent> MapCustomerPhoneEvent()
+        {
+            var customerPhoneEvent = new List<CustomerPhoneEvent>();
+
+            foreach (var item in customerPhoneEvent)
+            {
+                
+            }
         }
         protected Customer()
         {

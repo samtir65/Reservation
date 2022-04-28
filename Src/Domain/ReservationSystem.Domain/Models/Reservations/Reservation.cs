@@ -3,6 +3,7 @@ using Framework.Domain;
 using System;
 using Framework.Application;
 using Framework.Core;
+using ReservationSystem.Domailn.Contract.Events.Reservations;
 
 namespace ReservationSystem.Domain.Models.Reservations
 {
