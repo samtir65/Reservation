@@ -2,7 +2,7 @@
 using Reservation.Query.Model.Reservations;
 using ReservationSystem.Application.Contracts.Reservations.QueryServices;
 
-namespace Reservations.Gateway.Facade.Query
+namespace Reservations.Gateway.Facade.Query.Reservations
 {
     public class ReservationQueryFacade : IReservationQueryFacade
     {

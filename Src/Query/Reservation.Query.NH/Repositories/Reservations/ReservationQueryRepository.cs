@@ -3,7 +3,7 @@ using Framework.Core;
 using NHibernate;
 using Reservation.Query.Model.Reservations;
 
-namespace Reservation.Query.NH.Repositories
+namespace Reservation.Query.NH.Repositories.Reservations
 {
     public class ReservationQueryRepository : IReservationQueryRepository
     {

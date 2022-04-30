@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Domain\ReservationSystem.Domain\ReservationSystem.Domain.csproj" />
     <ProjectReference Include="..\..\Framework\Framework.Application\Framework.Application.csproj" />
     <ProjectReference Include="..\..\Framework\Framework.Core\Framework.Core.csproj" />
     <ProjectReference Include="..\..\Query\Reservation.Query.Model\Reservation.Query.Model.csproj" />
@@ -12,7 +13,6 @@
 
   <ItemGroup>
     <Folder Include="Customers\CommandServices\" />
-    <Folder Include="Customers\QueryServices\" />
   </ItemGroup>
 
 </Project>

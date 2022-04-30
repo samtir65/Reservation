@@ -26,17 +26,21 @@ namespace ReservationSystem.Domain.Models.Customers
             LastName = lastName;
             CreateOn =  createOn.Now();
             _customerPhones = customerPhones;
-            Publish(new CustomerCreated(id.DbId,FirstName,LastName,CreateOn,_customerPhones,claimHelper.GetUserId,claimHelper.GetUserName));
+            var customerPhoneEvent = MapCustomerPhoneEvent();
+            Publish(new CustomerCreated(id.DbId,FirstName,LastName,CreateOn,customerPhoneEvent,claimHelper.GetUserId(),claimHelper.GetUserName()));
         }
 
         protected List<CustomerPhoneEvent> MapCustomerPhoneEvent()
         {
             var customerPhoneEvent = new List<CustomerPhoneEvent>();
-
-            foreach (var item in customerPhoneEvent)
+            foreach (var item in this.CustomerPhones)
             {
-                
+                customerPhoneEvent.Add(item);
             }
+            return customerPhoneEvent;
+        }
+
+        
         }
         protected Customer()
         {

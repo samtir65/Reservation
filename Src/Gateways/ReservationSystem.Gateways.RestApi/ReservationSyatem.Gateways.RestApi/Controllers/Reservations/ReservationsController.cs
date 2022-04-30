@@ -22,6 +22,5 @@ namespace ReservationSystem.Gateways.RestApi.Controllers.Reservations
             return _reservationFacade.CreateReservation(command);
 
         }
-
     }
 }
