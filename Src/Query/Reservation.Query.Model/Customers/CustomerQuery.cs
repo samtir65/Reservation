@@ -12,17 +12,7 @@ namespace Reservation.Query.Model.Customers
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime CreateOn { get; set; }
-
-        private readonly IList<CustomerPhoneQuery> CustomerPhones;
-
-        public CustomerQuery(IList<CustomerPhoneQuery> customerPhones, long id, string firstName, string lastName, DateTime creatOn)
-        {
-            CustomerPhones = customerPhones;
-            Id = id;
-            FirstName = firstName;
-            LastName = lastName;
-            CreateOn = creatOn;
-        }
+        public IList<CustomerPhoneQuery> CustomerPhones { get; set; }
 
         protected CustomerQuery()
         {

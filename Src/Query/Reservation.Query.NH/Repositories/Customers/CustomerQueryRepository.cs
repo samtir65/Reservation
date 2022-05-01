@@ -17,11 +17,6 @@ namespace Reservation.Query.NH.Repositories.Customers
         {
             _session = session;
         }
-        public CustomerQuery Get(long id)
-        {
-            return _session.Query<CustomerQuery>().FirstOrDefault(x => x.Id == id);
-        }
-
         public PageResult<CustomerQuery> GetAll(PageInfo pageInfo)
         {
             if (!pageInfo.Take.HasValue)
@@ -32,5 +27,11 @@ namespace Reservation.Query.NH.Repositories.Customers
             return new PageResult<CustomerQuery>(data, totalCount);
 
         }
+        public CustomerQuery Get(long id)
+        {
+            return _session.Query<CustomerQuery>().FirstOrDefault(x => x.Id == id);
+        }
+
+      
     }
 }
