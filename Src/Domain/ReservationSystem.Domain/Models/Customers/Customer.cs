@@ -16,34 +16,38 @@ namespace ReservationSystem.Domain.Models.Customers
         public DateTime CreateOn { get; set; }
 
         private readonly IList<CustomerPhone> _customerPhones;
+
         public IReadOnlyCollection<CustomerPhone> CustomerPhones =>
             new ReadOnlyCollection<CustomerPhone>(_customerPhones);
 
-        public Customer(CustomerId id, string firstName,string lastName, IClock createOn,List<CustomerPhone> customerPhones,IEventPublisher eventPublisher,IClaimHelper claimHelper)
-            : base(id, eventPublisher,claimHelper.GetUserId())
+        public Customer(CustomerId id, string firstName, string lastName, IClock createOn,
+            List<CustomerPhone> customerPhones, IEventPublisher eventPublisher, IClaimHelper claimHelper)
+            : base(id, eventPublisher, claimHelper.GetUserId())
         {
             FirstName = firstName;
             LastName = lastName;
-            CreateOn =  createOn.Now();
+            CreateOn = createOn.Now();
             _customerPhones = customerPhones;
             var customerPhoneEvent = MapCustomerPhoneEvent();
-            Publish(new CustomerCreated(id.DbId,FirstName,LastName,CreateOn,customerPhoneEvent,claimHelper.GetUserId(),claimHelper.GetUserName()));
+            Publish(new CustomerCreated(id.DbId, FirstName, LastName, CreateOn, customerPhoneEvent,
+                claimHelper.GetUserId(), claimHelper.GetUserName()));
         }
 
         protected List<CustomerPhoneEvent> MapCustomerPhoneEvent()
         {
-            var customerPhoneEvent = new List<CustomerPhoneEvent>();
-            foreach (var item in this.CustomerPhones)
+            var customersPhoneEvent = new List<CustomerPhoneEvent>();
+            foreach (var phone in this.CustomerPhones)
             {
-                customerPhoneEvent.Add(item);
+                var customerPhoneEvent = new CustomerPhoneEvent(phone.Area, phone.Number);
+                customersPhoneEvent.Add(customerPhoneEvent);
             }
-            return customerPhoneEvent;
+
+            return customersPhoneEvent;
         }
 
-        
-        }
         protected Customer()
         {
         }
+
     }
 }
