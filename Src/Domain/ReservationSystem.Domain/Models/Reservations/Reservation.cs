@@ -4,6 +4,11 @@ using System;
 using Framework.Application;
 using Framework.Core;
 using ReservationSystem.Domailn.Contract.Events.Reservations;
+using ReservationSystem.Domain.Models.Personnels;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using ReservationSystem.Domain.Models.Services;
+using System.Linq;
 
 namespace ReservationSystem.Domain.Models.Reservations
 {
@@ -11,18 +16,24 @@ namespace ReservationSystem.Domain.Models.Reservations
     {
         public DateTime CreateOn { get; private set; }
         public long CustomerId { get; private set; }
-        public long ServiceId { get; private set; }
-        public long PersonnelId { get; private set; }
+        private readonly IList<SkillId> _requiredSkills;
 
-        public Reservation(ReservationId id, IClock createOn, long customerId,long serviceId,long personnelId, IClaimHelper claimHelper, IEventPublisher eventPublisher) 
+        public IReadOnlyCollection<SkillId> RequiredSkills =>
+            new ReadOnlyCollection<SkillId>(_requiredSkills);
+
+        public PersonnelId PersonnelId { get; private set; }
+
+
+        public Reservation(ReservationId id, IClock createOn, long customerId,List<SkillId> requiredSkills, PersonnelId personnelId, IClaimHelper claimHelper, IEventPublisher eventPublisher) 
             : base(id, eventPublisher, claimHelper.GetUserId())
         {
             CreateOn = createOn.Now();
             CustomerId = customerId;
-            ServiceId = serviceId;
+            _requiredSkills = requiredSkills;
             PersonnelId = personnelId;
-            Publish(new ReservationCreated(id.DbId,CreateOn,CustomerId,ServiceId,PersonnelId,claimHelper.GetUserId(),claimHelper.GetUserName()));
+            var requiredSkillsEvent = requiredSkills.Select(x => x.DbId).ToList();
+            Publish(new ReservationCreated(id.DbId,CreateOn,CustomerId, requiredSkillsEvent, PersonnelId.DbId,claimHelper.GetUserId(),claimHelper.GetUserName()));
         }
         protected Reservation(){}
     }
-}
+}       
