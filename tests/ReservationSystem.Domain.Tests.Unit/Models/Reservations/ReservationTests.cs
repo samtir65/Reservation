@@ -20,7 +20,7 @@ namespace ReservationSystem.Domain.Tests.Unit.Models.Reservations
             reservation.Id.Should().Be(_reservationTestBuilder.Id);
             reservation.CreateOn.Should().Be(_reservationTestBuilder.CreateOn.Now());
             reservation.CustomerId.Should().Be(_reservationTestBuilder.CustomerId);
-            reservation.ServiceId.Should().Be(_reservationTestBuilder.ServiceId);
+            reservation.RequiredSkills.Should().BeEquivalentTo(_reservationTestBuilder.RequiredSkills);
             reservation.PersonnelId.Should().Be(_reservationTestBuilder.PersonelId);
         } 
     }

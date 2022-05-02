@@ -7,7 +7,7 @@ using Xunit;
 
 namespace ReservationSystem.NH.Tests.Integration.Customers
 {
-    public class CustomerRepositoryTest: BasePersistenceTest
+    public class CustomerRepositoryTest : BasePersistenceTest
     {
         private readonly ICustomerRepository _customerRepository;
         private readonly CustomerTestBuilder _customerTestBuilder;
