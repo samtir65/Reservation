@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <Folder Include="Customers\Mapper\" />
+    <Folder Include="Reservations\Mapper\" />
   </ItemGroup>
 
 </Project>

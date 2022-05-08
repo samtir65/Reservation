@@ -17,7 +17,7 @@ namespace ReservationSystem.Persistence.NH.Mapping.Reservations
             Property(x => x.CreateOn);
             Property(x => x.CustomerId);
             Property(x => x.PersonnelId);
-            Property(x => x.ServiceId);
+            Property(x => x.RequiredSkills);
             Property(x => x.CreatorUserId);
            
         }

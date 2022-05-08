@@ -1,18 +1,21 @@
 ﻿using Framework.Application;
+using ReservationSystem.Domain.Models.Personnels;
+using ReservationSystem.Domain.Models.Services;
 using System;
+using System.Collections.Generic;
 
 namespace ReservationSystem.Application.Contracts.Reservations.Commands
 {
     public class CreateReservationsCommand:ICommand
     {
         public long CustomerId { get;  set; }
-        public long ServiceId { get;  set; }
-        public long PersonelId { get; set; }
+        public List<SkillId> RequiredSkills { get; set; }
+        public PersonnelId PersonelId { get; set; }
 
-        public CreateReservationsCommand(long customerId, long serviceId, long personelId)
+        public CreateReservationsCommand(long customerId, List<SkillId> requiredSkills, PersonnelId personelId)
         {
             CustomerId = customerId;
-            ServiceId = serviceId;
+            RequiredSkills = requiredSkills;
             PersonelId = personelId;
         }
     }

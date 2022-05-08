@@ -14,7 +14,7 @@ namespace ReservationSystem.Domain.TestsUtils.Models.Personnels
         public PersonnelId Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public List<AssigenedService> Skills { get; set; }
+        public List<AssigenedSkills> Skills { get; set; }
         public IEventPublisher EventPublisher { get; set; }
         public IClaimHelper ClaimHelper { get; set; }
         public PersonnelTestBuilder()
@@ -22,7 +22,7 @@ namespace ReservationSystem.Domain.TestsUtils.Models.Personnels
             Id = new PersonnelId(GenerateRandom.Number());
             FirstName = GenerateRandom.String();
             LastName = GenerateRandom.String();
-            Skills = new List<AssigenedService>(){new AssignedTestBuilder().Build()};
+            Skills = new List<AssigenedSkills>(){new AssignedTestBuilder().Build()};
             EventPublisher = new FakeEventPublisher();
             ClaimHelper = new ClaimHelperStub();
         }

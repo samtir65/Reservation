@@ -11,9 +11,24 @@ namespace ReservationSystem.DatabaseMigrations
                 .WithColumn("Id").AsInt64().PrimaryKey().NotNullable()
                 .WithColumn("CreateOn").AsDateTime2().NotNullable()
                 .WithColumn("CustomerId").AsInt64().NotNullable()
-                .WithColumn("ServiceId").AsInt64().NotNullable()
-                .WithColumn("personnelId").AsInt64().NotNullable()
+                .WithColumn("PersonnelId").AsInt64().NotNullable()
                 .WithColumn("CreatorUserId").AsInt64().NotNullable();
+
+            Create.Table("Personels")
+                .WithColumn("Id").AsInt64().PrimaryKey().NotNullable()
+                .WithColumn("FirstName").AsString().NotNullable()
+                .WithColumn("LastName").AsInt64().NotNullable()
+                .WithColumn("CreatorUserId").AsInt64().NotNullable();
+
+            Create.Table("AssigenedSkills")
+                .WithColumn("Id").AsInt64().PrimaryKey().Identity().NotNullable()
+                .WithColumn("SkillId").AsInt64().ForeignKey("Skills", "Id").NotNullable()
+                .WithColumn("PersonnelId").AsInt64().ForeignKey("Personels", "Id").NotNullable();
+
+            Create.Table("RequiredSkills")
+                .WithColumn("Id").AsInt64().PrimaryKey().Identity().NotNullable()
+                .WithColumn("SkillId").AsInt64().ForeignKey("Skills", "Id").NotNullable()
+                .WithColumn("ReservationId").AsInt64().ForeignKey("Reservations", "Id").NotNullable();
 
             Create.Table("Customers")
                 .WithColumn("Id").AsInt64().PrimaryKey().NotNullable()
@@ -27,6 +42,10 @@ namespace ReservationSystem.DatabaseMigrations
                 .WithColumn("Area").AsString(10)
                 .WithColumn("Number").AsString(255).NotNullable()
                 .WithColumn("Customer_Id").AsInt64().ForeignKey("Customers", "Id").NotNullable();
+
+            Create.Table("Skills")
+                .WithColumn("Id").AsInt64().PrimaryKey().NotNullable()
+                .WithColumn("Name").AsString(255).NotNullable();
 
             Create.Sequence("SequenceReservation").Cache(20).IncrementBy(1).StartWith(1);
             Create.Sequence("SequenceCustomer").Cache(20).IncrementBy(1).StartWith(1);

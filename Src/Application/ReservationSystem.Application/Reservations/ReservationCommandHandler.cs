@@ -24,7 +24,7 @@ namespace ReservationSystem.Application.Reservations
         public void Handle(CreateReservationsCommand command)
         {
             var id = _reservationRepository.GetNextId();
-            var reservation = Factory.CreateReservation(id,_clock, command.CustomerId, command.ServiceId,
+            var reservation = Factory.CreateReservation(id,_clock, command.CustomerId, command.RequiredSkills,
                 command.PersonelId,_claimHelper,_eventPublisher);
             _reservationRepository.Create(reservation);
         }

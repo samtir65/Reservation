@@ -11,11 +11,11 @@ namespace ReservationSystem.Domain.Models.Personnels
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        private readonly IList<AssigenedService> _skills;
-        public IReadOnlyCollection<AssigenedService> Skills =>
-            new ReadOnlyCollection<AssigenedService>(_skills);
+        private readonly IList<AssigenedSkills> _skills;
+        public IReadOnlyCollection<AssigenedSkills> Skills =>
+            new ReadOnlyCollection<AssigenedSkills>(_skills);
 
-        public Personnel(PersonnelId id, IEventPublisher publisher, long creatorUserId, IList<AssigenedService> skills, string firstName, string lastName) : base(id, publisher, creatorUserId)
+        public Personnel(PersonnelId id, IEventPublisher publisher, long creatorUserId, IList<AssigenedSkills> skills, string firstName, string lastName) : base(id, publisher, creatorUserId)
         {
             _skills = skills;
             FirstName = firstName;

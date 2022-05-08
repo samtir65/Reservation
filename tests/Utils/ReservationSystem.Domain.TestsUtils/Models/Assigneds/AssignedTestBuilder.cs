@@ -10,9 +10,9 @@ namespace ReservationSystem.Domain.TestsUtils.Models.Assigneds
         {
 
         }
-        public AssigenedService Build()
+        public AssigenedSkills Build()
         {
-            return new AssigenedService(SkillId,Amount);
+            return new AssigenedSkills(SkillId,Amount);
         }
     }
 }
