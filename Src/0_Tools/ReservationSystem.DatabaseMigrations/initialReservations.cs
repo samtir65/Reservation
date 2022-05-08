@@ -17,18 +17,8 @@ namespace ReservationSystem.DatabaseMigrations
             Create.Table("Personels")
                 .WithColumn("Id").AsInt64().PrimaryKey().NotNullable()
                 .WithColumn("FirstName").AsString().NotNullable()
-                .WithColumn("LastName").AsInt64().NotNullable()
+                .WithColumn("LastName").AsString().NotNullable()
                 .WithColumn("CreatorUserId").AsInt64().NotNullable();
-
-            Create.Table("AssigenedSkills")
-                .WithColumn("Id").AsInt64().PrimaryKey().Identity().NotNullable()
-                .WithColumn("SkillId").AsInt64().ForeignKey("Skills", "Id").NotNullable()
-                .WithColumn("PersonnelId").AsInt64().ForeignKey("Personels", "Id").NotNullable();
-
-            Create.Table("RequiredSkills")
-                .WithColumn("Id").AsInt64().PrimaryKey().Identity().NotNullable()
-                .WithColumn("SkillId").AsInt64().ForeignKey("Skills", "Id").NotNullable()
-                .WithColumn("ReservationId").AsInt64().ForeignKey("Reservations", "Id").NotNullable();
 
             Create.Table("Customers")
                 .WithColumn("Id").AsInt64().PrimaryKey().NotNullable()
@@ -46,6 +36,17 @@ namespace ReservationSystem.DatabaseMigrations
             Create.Table("Skills")
                 .WithColumn("Id").AsInt64().PrimaryKey().NotNullable()
                 .WithColumn("Name").AsString(255).NotNullable();
+
+            Create.Table("AssignedSkills")
+                .WithColumn("Id").AsInt64().PrimaryKey().Identity().NotNullable()
+                .WithColumn("SkillId").AsInt64().ForeignKey("Skills", "Id").NotNullable()
+                .WithColumn("PersonnelId").AsInt64().ForeignKey("Personels", "Id").NotNullable()
+                .WithColumn("Amount").AsString().NotNullable();
+
+            Create.Table("RequiredSkills")
+                .WithColumn("Id").AsInt64().PrimaryKey().Identity().NotNullable()
+                .WithColumn("SkillId").AsInt64().ForeignKey("Skills", "Id").NotNullable()
+                .WithColumn("ReservationId").AsInt64().ForeignKey("Reservations", "Id").NotNullable();
 
             Create.Sequence("SequenceReservation").Cache(20).IncrementBy(1).StartWith(1);
             Create.Sequence("SequenceCustomer").Cache(20).IncrementBy(1).StartWith(1);

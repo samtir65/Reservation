@@ -1,10 +1,8 @@
 ﻿using FluentAssertions;
 using NHibernate;
 using ReservationSystem.Domain.Models.Personnels;
-using ReservationSystem.Domain.TestsUtils.Models.Customers;
 using ReservationSystem.Domain.TestsUtils.Models.Personnels;
 using ReservationSystem.NH.Tests.Integration.Reservations;
-using ReservationSystem.Persistence.NH.Repository.Customers;
 using ReservationSystem.Persistence.NH.Repository.Personnels;
 using Xunit;
 
